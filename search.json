@@ -1,0 +1,639 @@
+[
+  {
+    "objectID": "notes/note_0009.html",
+    "href": "notes/note_0009.html",
+    "title": "Complex Numbers",
+    "section": "",
+    "text": "A complex number is of the form \\(a+ib\\), where \\(a\\) and \\(b\\) are real numbers and \\(i^{2} =-1\\). Some examples are:\n\n\\(2+3i\\)\n\\(5-10i\\)\n\\(-i\\)\n\\(5i\\)\n\\(4\\)\n\nThe set of complex numbers is denoted by \\(\\mathbb{C}\\). Every real number is a complex number. But every complex number need not necessarily be a real number. In terms of set theoretic notation, \\(\\mathbb{R} \\subset \\mathbb{C}\\) but \\(\\mathbb{C} \\not \\subset \\mathbb{R}\\).\nA complex number has two parts to it: real and imaginary part. For the complex number \\(2+3i\\), the real part is \\(2\\) and the imaginary part is \\(3\\). Any complex number \\(z\\) can be written as: \\[\n\\boxed{z=\\text{Re}( z) +\\text{Im}( z) \\cdot i}\n\\] We can understand complex numbers geometrically by plotting the real part on the x-axis and the imaginary part on the y-axis.\n\nThis plane is called the complex plane, also called the Argand plane or Gauss plane."
+  },
+  {
+    "objectID": "notes/note_0009.html#introduction",
+    "href": "notes/note_0009.html#introduction",
+    "title": "Complex Numbers",
+    "section": "",
+    "text": "A complex number is of the form \\(a+ib\\), where \\(a\\) and \\(b\\) are real numbers and \\(i^{2} =-1\\). Some examples are:\n\n\\(2+3i\\)\n\\(5-10i\\)\n\\(-i\\)\n\\(5i\\)\n\\(4\\)\n\nThe set of complex numbers is denoted by \\(\\mathbb{C}\\). Every real number is a complex number. But every complex number need not necessarily be a real number. In terms of set theoretic notation, \\(\\mathbb{R} \\subset \\mathbb{C}\\) but \\(\\mathbb{C} \\not \\subset \\mathbb{R}\\).\nA complex number has two parts to it: real and imaginary part. For the complex number \\(2+3i\\), the real part is \\(2\\) and the imaginary part is \\(3\\). Any complex number \\(z\\) can be written as: \\[\n\\boxed{z=\\text{Re}( z) +\\text{Im}( z) \\cdot i}\n\\] We can understand complex numbers geometrically by plotting the real part on the x-axis and the imaginary part on the y-axis.\n\nThis plane is called the complex plane, also called the Argand plane or Gauss plane."
+  },
+  {
+    "objectID": "notes/note_0009.html#algebra",
+    "href": "notes/note_0009.html#algebra",
+    "title": "Complex Numbers",
+    "section": "Algebra",
+    "text": "Algebra\nThe following are some of the operations that we can do on complex numbers:\n\naddition (subtraction)\nmultiplication (division)\nabsolute value or modulus\nconjugate\n\nWe will look at each one of these operations.\n\nAddition\nConsider two complex numbers \\(z_{1} =a_{1} +ib_{1}\\) and \\(z_{2} =a_{2} +ib_{2}\\). Then:\n\\[\n\\begin{equation*}\nz_{1} +z_{2} =( a_{1} +a_{2}) +i( b_{1} +b_{2})\n\\end{equation*}\n\\] To add two complex numbers, we add the real part separately and the imaginary part separately. For example:\n\\[\n\\begin{aligned}\n(1 + 3i) + (-5 - 2i) &= (1 - 5) +i(3 - 2)\\\\\n&= -4 + i\n\\end{aligned}\n\\] Subtraction follows trivially. To compute \\(z_{1} -z_{2}\\), we can just compute \\(z_{1} +( -z_{2})\\).\n\n\nMultiplication\nConsider two complex numbers \\(z_{1} =a_{1} +ib_{1}\\) and \\(z_{2} =a_{2} +ib_{2}\\). Then:\n\\[\n\\begin{equation*}\n\\begin{aligned}\nz_{1} z_{2} & =( a_{1} +ib_{1})( a_{2} +ib_{2})\\\\\n& =a_{1} a_{2} +a_{1}( ib_{2}) +( ib_{1}) a_{2} +i^{2} b_{1} b_{2}\\\\\n& =a_{1} a_{2} +i( a_{1} b_{2}) +i( a_{2} b_{1}) -b_{1} b_{2}\\\\\n& =( a_{1} a_{2} -b_{1} b_{2}) +i( a_{1} b_{2} +a_{2} b_{1})\n\\end{aligned}\n\\end{equation*}\n\\] As an example, if \\(z_{1} =3-2i\\) and \\(z_{2} =5+i\\), then:\n\\[\n\\begin{gather*}\n\\begin{aligned}\nz_{1} z_{2} & =( 3\\times 5-( -2) \\times 1) +i( 3\\times 1+( -2) \\times 5)\\\\\n& =17-7i\n\\end{aligned}\\\\\n\\end{gather*}\n\\] Before moving to division, let us look at the idea of the absolute value of a complex number.\n\n\nAbsolute Value\nThe absolute value of a complex number \\(z=a+ib\\) is given by: \\[\n\\begin{equation*}\n|z|=\\sqrt{a^{2} +b^{2}}\n\\end{equation*}\n\\] Geometrically, we can think about it as the distance of \\(z\\) from the origin. For example, if \\(z=3+2i\\), then \\(|z|=\\sqrt{3^{2} +2^{2}} =\\sqrt{13}\\). The complex number (blue dot) is at a distance of \\(\\sqrt{13}\\) units from the origin.\n\nAnother term for the absolute value is modulus. The absolute value of a complex number is always going to be a real number.\n\n\nConjugate\nThe conjugate of a complex number \\(z=a+ib\\) is denoted by \\(\\overline{z}\\) and given as:\n\\[\n\\overline{z} = a - ib\n\\] For example, if \\(z=3+2i\\) then \\(\\overline{z} =3-2i\\). Geometrically, \\(\\overline{z}\\) is the reflection of \\(z\\) around the x-axis:\n\nThe following is an interesting relation:\n\\[\n\\begin{equation*}\nz\\overline{z} =|z|^{2}\n\\end{equation*}\n\\] To see why this is true, consider any complex number \\(z=a+ib\\). Then:\n\\[\n\\begin{equation*}\n\\begin{aligned}\nz\\overline{z} & =( a+ib)( a-ib)\\\\\n& =a^{2} -a( ib) +( ib) a-i^{2} b^{2}\\\\\n& =a^{2} -i( ab) +i( ab) +b^{2}\\\\\n& =a^{2} +b^{2}\n\\end{aligned}\n\\end{equation*}\n\\] Here is an observation related to conjugates that will be used quite extensively in subsequent lectures: \\(z=\\overline{z}\\) if and only if \\(z\\) is a real number. To see why this is true, let \\(z=a+ib\\). If \\(z\\) is a real number, then \\(b=0\\), and it is obvious that \\(z=\\overline{z} =a\\). On the other hand, if \\(z=\\overline{z}\\), then we have:\n\\[\n\\begin{equation*}\n\\begin{aligned}\na+ib & =a-ib\\\\\ni( 2b) & =0\\\\\n\\Longrightarrow b & =0\n\\end{aligned}\n\\end{equation*}\n\\] It follows that \\(z=a\\) and hence a real number.\n\n\nDivision\nLet us try to divide two complex numbers \\(z_{1} =a_{1} +ib_{1}\\) and \\(z_{2} =a_{2} +ib_{2}\\) with \\(z_{2} \\neq 0\\): \\[\n\\begin{equation*}\n\\begin{aligned}\n\\cfrac{z_{1}}{z_{2}} & =\\cfrac{a_{1} +ib_{1}}{a_{2} +ib_{2}}\\\\\n& =\\cfrac{a_{1} +ib_{1}}{a_{2} +ib_{2}{}} \\cdot \\cfrac{a_{2} -ib_{2}}{a_{2} -ib_{2}}\\\\\n& =\\cfrac{( a_{1} +ib_{1})( a_{2} -ib_{2})}{a_{2}^{2} +b_{2}^{2}}\\\\\n& =\\cfrac{a_{1} a_{2} +b_{1} b_{2}}{a_{2}^{2} +b_{2}^{2}} +i\\cdot \\cfrac{a_{2} b_{1} -a_{1} b_{2}}{a_{2}^{2} +b_{2}^{2}}\n\\end{aligned}\n\\end{equation*}\n\\]"
+  },
+  {
+    "objectID": "notes/note_0009.html#polar-coordinates",
+    "href": "notes/note_0009.html#polar-coordinates",
+    "title": "Complex Numbers",
+    "section": "Polar Coordinates",
+    "text": "Polar Coordinates\nConsider a complex number \\(z = a + ib\\)\n\nUsing basic trigonometry, we have the following relations:\n\\[\n\\begin{gather*}\n\\begin{aligned}\nr & =\\sqrt{a^{2} +b^{2}}\\\\\n& \\\\\n\\cfrac{a}{r} & =\\cos \\theta \\\\\n& \\\\\n\\cfrac{b}{r} & =\\sin \\theta\n\\end{aligned}\\\\\n\\end{gather*}\n\\] Alternatively, we have: \\[\n\\begin{equation*}\n\\begin{aligned}\na & =r\\cos \\theta \\\\\nb & =r\\sin \\theta\n\\end{aligned}\n\\end{equation*}\n\\] So, the complex number \\(z\\) can be written as:\n\\[\n\\begin{equation*}\n\\begin{aligned}\nz & =a+ib\\\\\n& =r\\cos \\theta +i( r\\sin \\theta )\\\\\n& =r(\\cos \\theta +i\\sin \\theta )\n\\end{aligned}\n\\end{equation*}\n\\] The following result is stated without proof. If \\(e\\) is the familiar Euler’s number, then: \\[\n\\begin{equation*}\ne^{i\\theta } =\\cos \\theta +i\\sin \\theta\n\\end{equation*}\n\\] Using this result, we can write \\(z\\) as:\n\\[\n\\begin{equation*}\nz=re^{i\\theta }\n\\end{equation*}\n\\] \\(r\\) is the absolute value of \\(z\\) and \\(\\theta\\) is called the argument of \\(z\\). This way of representing a complex number using its modulus (absolute value) and argument is called the polar coordinate representation. Using this representation, the conjugate of \\(z=a+ib\\) can be written as follows:\n\\[\n\\begin{equation*}\n\\begin{aligned}\n\\overline{z} & =a-ib\\\\\n& =r(\\cos \\theta -i\\sin \\theta )\\\\\n& =r[\\cos( -\\theta ) +i\\sin( -\\theta )]\\\\\n& =re^{-i\\theta }\n\\end{aligned}\n\\end{equation*}\n\\] We have used the fact that \\(\\cos(-\\theta ) =\\cos \\theta\\) and \\(\\sin(-\\theta ) =-\\sin \\theta\\). The geometric interpretation of the conjugate under the polar coordinates is as follows:"
+  },
+  {
+    "objectID": "notes/note_0001.html",
+    "href": "notes/note_0001.html",
+    "title": "Columns space is orthogonal to the left null space",
+    "section": "",
+    "text": "Since we are dealing with the column space, let us represent \\(A\\) in terms of columns: \\[\nA = \\begin{bmatrix}\n\\vert & & \\vert\\\\\nc_1 & \\cdots & c_n\\\\\n\\vert & & \\vert\n\\end{bmatrix}\n\\] Let \\(x \\in \\mathcal{N}(A^T)\\). Then: \\[\n\\begin{aligned}\nA^T x &= 0\\\\\\\\\n\\begin{bmatrix}\n\\large— & c_1^T & \\large—\\\\\n& \\vdots &\\\\\n\\large— & c_n^T & \\large—\n\\end{bmatrix}x &= 0\n\\end{aligned}\n\\] It follows that \\(c_i^T x = 0\\) for \\(1 \\leqslant i \\leqslant n\\). This means that the left nullspace of \\(A\\) is orthogonal to the column space of \\(A\\)."
+  },
+  {
+    "objectID": "notes/note_0010.html",
+    "href": "notes/note_0010.html",
+    "title": "Complex Vector Spaces",
+    "section": "",
+    "text": "We have already looked at \\(\\mathbb{R}^{n}\\) in considerable detail in earlier courses. We will now briefly look at \\(\\mathbb{C}^{n}\\). Rather than working with a general value of \\(n\\), let us try to understand \\(\\mathbb{C}^{2}\\). All the ideas can be easily extended to the case of \\(n &gt;2\\).\n\\(\\mathbb{R}^{2}\\) is the set of all tuples of the form \\(( x,y)\\) where both \\(x\\) and \\(y\\) are real numbers. We denote this formally as:\n\\[\n\\begin{equation*}\n\\mathbb{R}^{2} =\\{( x,y) \\ |\\ x,y\\in \\mathbb{R}\\}\n\\end{equation*}\n\\] We are quite familiar with \\(\\mathbb{R}^{2}\\). Geometrically, it denotes the 2D plane. Extending this idea, the set \\(\\mathbb{C}^{2}\\) is the set of all tuples of the form \\(( z_{1} ,z_{2})\\) where both \\(z_{1}\\) and \\(z_{2}\\) are complex numbers. Formally:\n\\[\n\\begin{equation*}\n\\mathbb{C}^{2} =\\{( z_{1} ,z_{2}) \\ |\\ z_{1} ,z_{2} \\in \\mathbb{C}\\}\n\\end{equation*}\n\\] Some of the elements of \\(\\mathbb{C}^{2}\\) are as follows:\n\n\\(( i,2i)\\)\n\\(( 1+3i,-4+11i)\\)\n\\(( -2,3)\\)\n\\(( i,5)\\)\n\\(( 3,i)\\)\n\\(( 0,0)\\)\n\nTrying to gain a geometric understanding of \\(\\mathbb{C}^{2}\\) is going to be hard. We would have to rely on our visual understanding of \\(\\mathbb{R}^{2}\\) and try to extraploate it to \\(\\mathbb{C}^{2}\\)."
+  },
+  {
+    "objectID": "notes/note_0010.html#introduction",
+    "href": "notes/note_0010.html#introduction",
+    "title": "Complex Vector Spaces",
+    "section": "",
+    "text": "We have already looked at \\(\\mathbb{R}^{n}\\) in considerable detail in earlier courses. We will now briefly look at \\(\\mathbb{C}^{n}\\). Rather than working with a general value of \\(n\\), let us try to understand \\(\\mathbb{C}^{2}\\). All the ideas can be easily extended to the case of \\(n &gt;2\\).\n\\(\\mathbb{R}^{2}\\) is the set of all tuples of the form \\(( x,y)\\) where both \\(x\\) and \\(y\\) are real numbers. We denote this formally as:\n\\[\n\\begin{equation*}\n\\mathbb{R}^{2} =\\{( x,y) \\ |\\ x,y\\in \\mathbb{R}\\}\n\\end{equation*}\n\\] We are quite familiar with \\(\\mathbb{R}^{2}\\). Geometrically, it denotes the 2D plane. Extending this idea, the set \\(\\mathbb{C}^{2}\\) is the set of all tuples of the form \\(( z_{1} ,z_{2})\\) where both \\(z_{1}\\) and \\(z_{2}\\) are complex numbers. Formally:\n\\[\n\\begin{equation*}\n\\mathbb{C}^{2} =\\{( z_{1} ,z_{2}) \\ |\\ z_{1} ,z_{2} \\in \\mathbb{C}\\}\n\\end{equation*}\n\\] Some of the elements of \\(\\mathbb{C}^{2}\\) are as follows:\n\n\\(( i,2i)\\)\n\\(( 1+3i,-4+11i)\\)\n\\(( -2,3)\\)\n\\(( i,5)\\)\n\\(( 3,i)\\)\n\\(( 0,0)\\)\n\nTrying to gain a geometric understanding of \\(\\mathbb{C}^{2}\\) is going to be hard. We would have to rely on our visual understanding of \\(\\mathbb{R}^{2}\\) and try to extraploate it to \\(\\mathbb{C}^{2}\\)."
+  },
+  {
+    "objectID": "notes/note_0010.html#complex-vector-space",
+    "href": "notes/note_0010.html#complex-vector-space",
+    "title": "Complex Vector Spaces",
+    "section": "Complex Vector Space",
+    "text": "Complex Vector Space\nRecall that \\(\\mathbb{R}^{2}\\) can be viewed as a vector space if we add additional structure to it, namely vector addition and scalar multiplication. In a similar sense, \\(\\mathbb{C}^{2}\\) can also be viewed as a vector space. One notable fact is that \\(\\mathbb{C}^{2}\\) is a complex vector space. The scalars used to multiply vectors will now be drawn from \\(\\mathbb{C}\\). Most of the vector operations that we learned in \\(\\mathbb{R}^{2}\\) are going to carry over to \\(\\mathbb{C}^{2}\\). From now on, we will denote the elements of \\(\\mathbb{C}^{2}\\) as vectors. Vectors will be denoted in bold font.\n\nColumn Vectors\nA typical convention while denoting vectors is to treat them as column vectors. Let us take an example:\n\\[\n\\begin{equation*}\nz =\\begin{bmatrix}\n1+i\\\\\n3-2i\n\\end{bmatrix}\n\\end{equation*}\n\\] The vector \\(\\mathbf{z} \\in \\mathbb{C}^{2}\\) and is treated as a \\(2\\times 1\\) matrix. Note that we would have represented this as \\(( 1+i,3-2i)\\) while viewing \\(\\mathbb{C}^{2}\\) as a simple set. Once we get the hang of column vectors, then the corresponding row vector would be:\n\\[\n\\begin{equation*}\n\\mathbf{z}^{T} =\\begin{bmatrix}\n1+i & 3-2i\n\\end{bmatrix}\n\\end{equation*}\n\\]\n\n\nAddition\nWe can add vectors component wise. As an example, let \\(\\mathbf{z_{1}}\\) and \\(\\mathbf{z_{2}}\\) be two vectors in \\(\\mathbb{C}^{2}\\):\n\\[\n\\begin{equation*}\n\\mathbf{z_{1}} =\\begin{bmatrix}\ni\\\\\n1+i\n\\end{bmatrix} ,\\mathbf{z_{2}} =\\begin{bmatrix}\n-1+i\\\\\n5-3i\n\\end{bmatrix}\n\\end{equation*}\n\\] Then, \\(\\mathbf{z_{1}} +\\mathbf{z_{2}}\\) is:\n\\[\n\\begin{equation*}\n\\mathbf{z_{1}} +\\mathbf{z_{2}} =\\begin{bmatrix}\n-1+2i\\\\\n6-2i\n\\end{bmatrix}\n\\end{equation*}\n\\]\n\n\nScalar multiplication\nWe can multiply a vector \\(\\mathbf{z}\\) with a scalar. Note that the scalar can be any complex number. Let \\(\\alpha =2+i\\) be a scalar and \\(\\mathbf{z} =\\begin{bmatrix} 1\\\\ 3i \\end{bmatrix}\\) be a vector, then: \\[\n\\begin{equation*}\n\\alpha \\mathbf{z} =\\begin{bmatrix}\n2+i\\\\\n-3+6i\n\\end{bmatrix}\n\\end{equation*}\n\\]\n\n\nConjugate\nIf \\(\\mathbf{z} =\\begin{bmatrix} 2+i\\\\ -3+6i \\end{bmatrix}\\), then \\(\\mathbf{\\overline{z}}\\) is: \\[\n\\begin{equation*}\n\\mathbf{\\overline{z}} =\\begin{bmatrix}\n2-i\\\\\n-3-6i\n\\end{bmatrix}\n\\end{equation*}\n\\] The conjugate is computed component-wise.\n\n\nConjugate transpose\nThis is not an entirely new operation but just a composition of two operations: conjugate and transpose. Conjugate and transpose are interchangeable operations. We could first take the transpose and then the conjugate or take the conjugate first and then the transpose. That is:\n\\[\n\\begin{equation*}\n(\\mathbf{\\overline{z}})^{T} =\\overline{\\mathbf{z}^{T}}\n\\end{equation*}\n\\] We will denote this by \\(\\overline{\\mathbf{z}}^{T}\\). As an example, if \\(\\mathbf{z} =\\begin{bmatrix} 2+i\\\\ -3+6i \\end{bmatrix}\\), then \\(\\mathbf{\\overline{z}}^{T}\\) is: \\[\n\\begin{equation*}\n\\mathbf{\\overline{z}}^{T} =\\begin{bmatrix}\n2-i & -3-6i\n\\end{bmatrix}\n\\end{equation*}\n\\]\n\n\nLinear combination\nIf we have three vectors \\(\\mathbf{z_{1}} ,\\mathbf{z_{2}} ,\\mathbf{z_{3}}\\), then the following is a linear combination:\n\\[\n\\begin{equation*}\n( 3+i)\\mathbf{z_{1}} -( 5i)\\mathbf{z_{2}} +( 2-6i)\\mathbf{z_{3}}\n\\end{equation*}\n\\] This can be extended to a finite number of vectors:\n\\[\n\\begin{equation*}\n\\alpha _{1}\\mathbf{z_{1}} +\\cdots +\\alpha _{n}\\mathbf{z_{n}}\n\\end{equation*}\n\\] Here, \\(\\mathbf{z_{i}} \\in \\mathbb{C}^{2}\\) and \\(\\alpha _{i} \\in \\mathbb{C}\\)."
+  },
+  {
+    "objectID": "notes/note_0010.html#inner-products",
+    "href": "notes/note_0010.html#inner-products",
+    "title": "Complex Vector Spaces",
+    "section": "Inner Products",
+    "text": "Inner Products\nIn addition to the operations of vector addition and scalar multiplication, we can add more structure to a vector space by defining the operation of an inner product. Recall that this results in what is called an inner product space. An inner product accepts two vectors as input and returns a scalar as output. In the case of complex vector spaces, recall that the scalar can be a complex number. In the case of \\(\\mathbb{R}^{2}\\), we had the simple dot product as an inner product which returned a real number. Let \\(\\mathbf{x} ,\\mathbf{y} \\in \\mathbb{R}^{2}\\), then:\n\\[\n\\begin{equation*}\n\\mathbf{x} =\\begin{bmatrix}\nx_{1}\\\\\nx_{2}\n\\end{bmatrix} ,\\ \\mathbf{y} =\\begin{bmatrix}\ny_{1}\\\\\ny_{2}\n\\end{bmatrix}\n\\end{equation*}\n\\] The dot product is\n\\[\n\\begin{equation*}\n\\mathbf{x}^{T}\\mathbf{y} =x_{1} y_{1} +x_{2} y_{2}\n\\end{equation*}\n\\] In general, an inner product is denoted using angle brackets \\(\\langle \\ ,\\ \\rangle\\). In the above case:\n\\[\n\\begin{equation*}\n\\langle \\mathbf{x} ,\\mathbf{y} \\rangle =\\mathbf{x}^{T}\\mathbf{y}\n\\end{equation*}\n\\] Note that the idea of an inner product is more abstract than the dot product. As a simple analogy consider the astronomical terms “sun” and “star”. The term “star” can be identified with the inner product, while the term “sun” can be identified with the dot product.\nWhy do we need inner products? An inner product introduces the geometrical ideas of lengths and angles into vector spaces. If we just have a vector space, all that we can do is add vectors and multiply them with scalars. It is only with the help of the inner product that we can talk about notions such as lengths, distances and angles.\nLet us pause for a moment and consider \\(\\mathbb{R}^{2}\\). If \\(\\mathbf{x} \\in \\mathbb{R}^{2}\\), then we can define the norm of \\(\\mathbf{x}\\) as \\(||\\mathbf{x} ||=\\sqrt{\\mathbf{x}^{T}\\mathbf{x}} =\\sqrt{x_{1}^{2} +x_{2}^{2}}\\). The norm of \\(\\mathbf{x}\\) gives us the notion of the length of a vector. For instance, if \\(\\mathbf{x} =\\begin{bmatrix} 3\\\\ 4 \\end{bmatrix}\\), then \\(\\sqrt{\\mathbf{x}^{T}\\mathbf{x}} =5\\) and is the length of the vector \\(\\mathbf{x}\\). We would like something similar to hold for complex inner products."
+  },
+  {
+    "objectID": "notes/note_0010.html#complex-inner-product",
+    "href": "notes/note_0010.html#complex-inner-product",
+    "title": "Complex Vector Spaces",
+    "section": "Complex Inner Product",
+    "text": "Complex Inner Product\nComing back to \\(\\mathbb{C}^{2}\\), is the dot product a valid inner product? Let us try. Consider the vector \\(\\mathbf{z} =\\begin{bmatrix} 1\\\\ i \\end{bmatrix}\\). Now, let us compute \\(\\mathbf{z}^{T}\\mathbf{z}\\). \\[\n\\begin{equation*}\n\\begin{aligned}\n\\mathbf{z}^{T}\\mathbf{z} & =\\begin{bmatrix}\n1 & i\n\\end{bmatrix}\\begin{bmatrix}\n1\\\\\ni\n\\end{bmatrix}\\\\\n& =1+i^{2}\\\\\n& =0\n\\end{aligned}\n\\end{equation*}\n\\] We wouldn’t want the “length” of a non-zero vector to be zero. Hence, the dot product doesn’t seem like a valid inner product for the complex vector space \\(\\mathbb{C}^{2}\\). So what is a valid inner product for \\(\\mathbb{C}^{2}\\)? The following is the standard inner product that we have for complex vector spaces:\n\\[\n\\begin{equation*}\n\\langle \\mathbf{x} ,\\mathbf{y} \\rangle =\\overline{\\mathbf{x}}^{T}\\mathbf{y}\n\\end{equation*}\n\\] Here, \\(\\mathbf{x} ,\\mathbf{y} \\in \\mathbb{C}^{2}\\). Let us denote \\(\\mathbf{x} =\\begin{bmatrix} x_{1}\\\\ x_{2} \\end{bmatrix}\\) and \\(\\mathbf{y} =\\begin{bmatrix} y_{1}\\\\ y_{2} \\end{bmatrix}\\) and understand what this means. Note that \\(x_{1} ,x_{2} ,y_{1} ,y_{2} \\in \\mathbb{C}\\): \\[\n\\begin{equation*}\n\\begin{aligned}\n\\overline{\\mathbf{x}}^{T}\\mathbf{y} & =\\begin{bmatrix}\n\\overline{x_{1}} & \\overline{x_{2}}\n\\end{bmatrix}\\begin{bmatrix}\ny_{1}\\\\\ny_{2}\n\\end{bmatrix}\\\\\n& \\\\\n& =\\overline{x_{1}} y_{1} +\\overline{x_{2}} y_{2}\n\\end{aligned}\n\\end{equation*}\n\\] Let us now go back to the example \\(z=\\begin{bmatrix} 1\\\\ i \\end{bmatrix}\\) and see what this inner product does when both the vectors are \\(\\mathbf{z}\\): \\[\n\\begin{gather*}\n\\begin{aligned}\n\\overline{\\mathbf{z}}^{T}\\mathbf{z} & =\\begin{bmatrix}\n1 & -i\n\\end{bmatrix}\\begin{bmatrix}\n1\\\\\ni\n\\end{bmatrix}\\\\\n& =1-i^{2}\\\\\n& =2\n\\end{aligned}\\\\\n\\end{gather*}\n\\] This is much more reasonable than the simple dot product. For want of a better term, let us call the standard inner product for complex vector spaces the “complex inner product”. Let us now do an example: \\[\n\\begin{equation*}\n\\mathbf{x} =\\begin{bmatrix}\n1+i\\\\\n3-i\n\\end{bmatrix} ,\\mathbf{y} =\\begin{bmatrix}\n2i\\\\\ni\n\\end{bmatrix}\n\\end{equation*}\n\\] Then:\n\\[\n\\begin{equation*}\n\\begin{aligned}\n\\overline{\\mathbf{x}}^{T}\\mathbf{y} & =\\begin{bmatrix}\n1-i & 3+i\n\\end{bmatrix}\\begin{bmatrix}\n2i\\\\\ni\n\\end{bmatrix}\\\\\n& \\\\\n& =( 1-i)( 2i) +( 3+i) i\\\\\n& \\\\\n& =2i-2i^{2} +3i+i^{2}\\\\\n& \\\\\n& =1+5i\n\\end{aligned}\n\\end{equation*}\n\\] Note again that the inner product is a scalar and in the case of complex vector spaces, it can be any complex number."
+  },
+  {
+    "objectID": "notes/note_0010.html#properties",
+    "href": "notes/note_0010.html#properties",
+    "title": "Complex Vector Spaces",
+    "section": "Properties",
+    "text": "Properties\nUnlike the dot product for real vector spaces, the complex inner product is not symmetric. That is:\n\\[\n\\begin{equation*}\n\\mathbf{\\overline{x}}^{T}\\mathbf{y} \\neq \\mathbf{\\overline{y}}^{T}\\mathbf{x}\n\\end{equation*}\n\\] Let us see this with an example:\n\\[\n\\begin{equation*}\n\\mathbf{x} =\\begin{bmatrix}\n1-i\\\\\n2+i\n\\end{bmatrix} ,y=\\begin{bmatrix}\n2-i\\\\\ni\n\\end{bmatrix}\n\\end{equation*}\n\\] Then, \\[\n\\begin{equation*}\n\\begin{aligned}\n\\overline{\\mathbf{x}}^{T}\\mathbf{y} & =\\begin{bmatrix}\n1+i & 2-i\n\\end{bmatrix}\\begin{bmatrix}\n2-i\\\\\ni\n\\end{bmatrix}\\\\\n& =( 1+i)( 2-i) +( 2-i) i\\\\\n& =2-i+2i-i^{2} +2i-i^{2}\\\\\n& =4+3i\n\\end{aligned}\n\\end{equation*}\n\\] And, \\[\n\\begin{equation*}\n\\begin{aligned}\n\\overline{\\mathbf{y}}^{T}\\mathbf{x} & =\\begin{bmatrix}\n2+i & -i\n\\end{bmatrix}\\begin{bmatrix}\n1-i\\\\\n2+i\n\\end{bmatrix}\\\\\n& =( 2+i)( 1-i) -i( 2+i)\\\\\n& =2-2i+i-i^{2} -2i-i^{2}\\\\\n& =4-3i\n\\end{aligned}\n\\end{equation*}\n\\] We see that \\(\\overline{\\mathbf{x}}^{T}\\mathbf{y} \\neq \\overline{\\mathbf{y}}^{T}\\mathbf{x}\\). But interestingly, we see that \\(\\overline{\\overline{\\mathbf{x}}^{T}\\mathbf{y}} =\\overline{\\mathbf{y}}^{T}\\mathbf{x}\\). Though this inner product is not symmetric, it is “conjugate symmetric”. This will be the first property:\n\nConjugate Symmetry\nIf \\(\\mathbf{x}\\) and \\(\\mathbf{y}\\) are two vectors in \\(\\mathbb{C}^{2}\\), then: \\[\n\\begin{equation*}\n\\overline{\\overline{\\mathbf{x}}^{T}\\mathbf{y}} =\\overline{\\mathbf{y}}^{T}\\mathbf{x}\n\\end{equation*}\n\\] Next, we have linearity.\n\n\nLinearity\nIf \\(\\mathbf{x} ,\\mathbf{y} ,\\mathbf{z} \\in \\mathbb{C}^{2}\\) and \\(\\alpha ,\\beta \\in \\mathbb{C}\\), then: \\[\n\\begin{equation*}\n\\overline{\\mathbf{x}}^{T}(\\mathbf{y} +\\mathbf{z}) =\\overline{\\mathbf{x}}^{T}\\mathbf{y} +\\overline{\\mathbf{x}}^{T}\\mathbf{z}\n\\end{equation*}\n\\]\n\\[\n\\begin{equation*}\n\\overline{\\mathbf{x}}^{T}( \\alpha \\mathbf{y}) =\\alpha \\overline{x}^{T}\\mathbf{y}\n\\end{equation*}\n\\]\nThe complex inner product is linear in the second argument. Rather than scaling the second argument, if we scale the first argument, we get the following:\n\\[\n\\begin{equation*}\n\\overline{( \\alpha \\mathbf{x})}^{T}\\mathbf{y} =\\overline{\\alpha }\\left(\\overline{x}^{T}\\mathbf{y}\\right)\n\\end{equation*}\n\\] Finally, we have the following property:\n\n\nPositive-definiteness\nIf \\(\\mathbf{x}\\) is any non-zero vector in \\(\\mathbb{C}^{2}\\), then: \\[\n\\begin{equation*}\n\\mathbf{\\overline{x}}^{T}\\mathbf{x}  &gt;0\n\\end{equation*}\n\\] There is more to this statement than meets the eye. The inner product returns a complex number. Complex numbers do not admit comparisons. For instance, a statement like \\(1+2i &gt;0\\) makes no sense. However, the above property is making some such comparison. This is allowed because, \\(\\overline{\\mathbf{x}}^{T}\\mathbf{x}\\) is always going to be a positive real number. Let us verify this with \\(\\mathbf{x} =\\begin{bmatrix} x_{1}\\\\ x_{2} \\end{bmatrix}\\): \\[\n\\begin{gather*}\n\\begin{aligned}\n\\overline{\\mathbf{x}}^{T}\\mathbf{x} & =\\overline{x_{1}} x_{1} +\\overline{x_{2}} x_{2}\\\\\n& =|x_{1} |^{2} +|x_{2} |^{2}\\\\\n&  &gt;0\n\\end{aligned}\\\\\n\\end{gather*}\n\\] Note that \\(\\overline{\\mathbf{x}}^{T}\\mathbf{x} =0\\) if and only if \\(\\mathbf{x} =\\mathbf{0}\\). In other words, the complex inner product of a vector with itself is zero if and only if the vector itself is the zero vector (\\(\\mathbf{0}\\)).\nOne frequent use of the inner product is to check if two vectors are orthogonal (perpendicular). We say that two vectors \\(\\mathbf{x}\\) and \\(\\mathbf{y}\\) are orthogonal (or \\(\\mathbf{x} \\perp \\mathbf{y}\\)) if \\(\\overline{\\mathbf{x}}^{T}\\mathbf{y} =0\\)."
+  },
+  {
+    "objectID": "notes/note_0010.html#notation-revisited",
+    "href": "notes/note_0010.html#notation-revisited",
+    "title": "Complex Vector Spaces",
+    "section": "Notation Revisited",
+    "text": "Notation Revisited\nSo far we have been using \\(\\overline{\\mathbf{x}}^{T}\\) to denote the conjugate transpose. This notation could be a bit cumbersome. There is an alternative notation that we will start using from now:\n\\[\n\\begin{equation*}\n\\mathbf{x}^{H} \\ \\text{or} \\ \\mathbf{x}^{*}\n\\end{equation*}\n\\] \\(H\\) stands for Hermitian. Using this notation, the complex inner product \\(\\overline{\\mathbf{x}}^{T}\\mathbf{y}\\) can be written as:\n\\[\n\\begin{equation*}\n\\mathbf{x}^{*}\\mathbf{y} \\ \\ \\text{or} \\ \\ \\mathbf{x}^{H}\\mathbf{y}\n\\end{equation*}\n\\]\nThis can be read as “x star y” and “x Hermitian y” respectively."
+  },
+  {
+    "objectID": "notes/note_0004.html",
+    "href": "notes/note_0004.html",
+    "title": "Row space is orthogonal to nullspace",
+    "section": "",
+    "text": "Let \\(A\\) be a matrix whose \\(i^{th}\\) row is represented as \\(r_{i}^T\\): \\[\nA = \\begin{bmatrix}\n— & r_1^T & —\\\\\n& \\vdots & \\\\\n— & r_n^T & —\n\\end{bmatrix}\n\\] Let \\(x \\in \\mathcal{N}(A)\\). Then \\(Ax = 0\\). Now: \\[\n\\begin{aligned}\nAx &= 0\\\\\\\\\n\\begin{bmatrix}\n— & r_1^T & —\\\\\n& \\vdots & \\\\\n— & r_n^T & —\n\\end{bmatrix} x &= 0\\\\\\\\\n\\begin{bmatrix}\nr_1^Tx\\\\\n\\vdots\\\\\nr_n^Tx\n\\end{bmatrix} &= 0\n\\end{aligned}\n\\] It follows that \\(r_i^Tx = 0\\) for \\(1 \\leqslant i \\leqslant n\\). In other words, \\(x\\) is orthogonal to all the rows. Hence, we conclude that the nullspace is orthogonal to the row space."
+  },
+  {
+    "objectID": "notes/note_0006.html",
+    "href": "notes/note_0006.html",
+    "title": "Vector Spaces",
+    "section": "",
+    "text": "Addition and Scalar multiplication\nGiven a set \\(V\\), we define two operations:\n\nAddition: for every pair of elements \\(u, v \\in V\\), we have \\(u + v \\in V\\)\nScalar multiplication: for every \\(v \\in V\\) and \\(a \\in \\mathbb{R}\\), we have \\(av \\in V\\).\n\nWe call elements of \\(V\\) vectors and elements of \\(\\mathbb{R}\\) scalars. Both addition and scalar multiplication can be thought of as functions. Addition maps two elements in \\(V\\) to another element in \\(V\\). Scalar multiplication takes an element in \\(V\\) and an element in \\(\\mathbb{R}\\) and maps it to an element in \\(V\\).\nVector space\nA vector space is a set \\(V\\) along with the operations of addition and scalar multiplication that satisfy the following properties. In all these properties \\(u, v, w\\) are arbitrary vectors in \\(V\\) and \\(a, b\\) are scalars in \\(\\mathbb{R}\\):\n\ncommutativity\n\n\\(u + v = v + u\\)\n\nassociativity\n\n\\((u + v) + w = u + (v + w)\\)\n\\((ab)v = a(bv)\\)\n\nadditive identity\n\nthere exists a \\(0 \\in V\\) such that \\(v + 0 = v\\) for every \\(v \\in V\\)\n\nadditive inverse\n\nfor every \\(v \\in V\\), there exists a vector \\(-v \\in V\\) such that \\(v + (-v) = 0\\)\n\nmultiplicative identity\n\n\\(1v = v\\) for all \\(v \\in V\\)\n\ndistributive properties\n\n\\(a(u + v) = au + av\\)\n\\((a + b)v = av + bv\\)\n\n\nNote: The above definition is for a real vector space. When dealing with complex vector spaces, replace \\(\\mathbb{R}\\) with \\(\\mathbb{C}\\)."
+  },
+  {
+    "objectID": "notes/note_0006.html#definition",
+    "href": "notes/note_0006.html#definition",
+    "title": "Vector Spaces",
+    "section": "",
+    "text": "Addition and Scalar multiplication\nGiven a set \\(V\\), we define two operations:\n\nAddition: for every pair of elements \\(u, v \\in V\\), we have \\(u + v \\in V\\)\nScalar multiplication: for every \\(v \\in V\\) and \\(a \\in \\mathbb{R}\\), we have \\(av \\in V\\).\n\nWe call elements of \\(V\\) vectors and elements of \\(\\mathbb{R}\\) scalars. Both addition and scalar multiplication can be thought of as functions. Addition maps two elements in \\(V\\) to another element in \\(V\\). Scalar multiplication takes an element in \\(V\\) and an element in \\(\\mathbb{R}\\) and maps it to an element in \\(V\\).\nVector space\nA vector space is a set \\(V\\) along with the operations of addition and scalar multiplication that satisfy the following properties. In all these properties \\(u, v, w\\) are arbitrary vectors in \\(V\\) and \\(a, b\\) are scalars in \\(\\mathbb{R}\\):\n\ncommutativity\n\n\\(u + v = v + u\\)\n\nassociativity\n\n\\((u + v) + w = u + (v + w)\\)\n\\((ab)v = a(bv)\\)\n\nadditive identity\n\nthere exists a \\(0 \\in V\\) such that \\(v + 0 = v\\) for every \\(v \\in V\\)\n\nadditive inverse\n\nfor every \\(v \\in V\\), there exists a vector \\(-v \\in V\\) such that \\(v + (-v) = 0\\)\n\nmultiplicative identity\n\n\\(1v = v\\) for all \\(v \\in V\\)\n\ndistributive properties\n\n\\(a(u + v) = au + av\\)\n\\((a + b)v = av + bv\\)\n\n\nNote: The above definition is for a real vector space. When dealing with complex vector spaces, replace \\(\\mathbb{R}\\) with \\(\\mathbb{C}\\)."
+  },
+  {
+    "objectID": "notes/note_0006.html#examples",
+    "href": "notes/note_0006.html#examples",
+    "title": "Vector Spaces",
+    "section": "Examples",
+    "text": "Examples\n\n\\(\\mathbb{R}^{n}\\) with the usual addition and scalar multiplication operations\n\n\\(\\mathbb{R}^{2}\\) - 2d plane\n\\(\\mathbb{R}^3\\) - 3d space\n\n\\(\\mathbb{M}_{m \\times n}(\\mathbb{R})\\), the set of all real matrices of dimensions \\(m \\times n\\) with the usual rules of addition and scalar multiplication\n\\(\\mathcal{P}_2(\\mathbb{R})\\), the set of all polynomials with real coefficients with degree at most \\(2\\)\n\\(\\mathcal{F}(X, \\mathbb{R})\\), the set of all real valued functions on the set \\(X\\)"
+  },
+  {
+    "objectID": "notes/note_0006.html#references",
+    "href": "notes/note_0006.html#references",
+    "title": "Vector Spaces",
+    "section": "References",
+    "text": "References\nLinear Algebra Done Right, Sheldon Axler"
+  },
+  {
+    "objectID": "notes/note_0013.html",
+    "href": "notes/note_0013.html",
+    "title": "Some questions on similar matrices",
+    "section": "",
+    "text": "Some questions concerning similar matrices:\n\nIf \\(A\\) and \\(B\\) are similar, is \\(AB\\) similar to \\(BA\\)?\nAre any two invertible matrices of the same order similar?\nGiven two square matrices \\(A\\) and \\(B\\) of the same order, how does one determine if they are similar or not? Refer to this link for a discussion on this question."
+  },
+  {
+    "objectID": "notes/note_0014.html",
+    "href": "notes/note_0014.html",
+    "title": "Products of matrices are similar if one of them is invertible",
+    "section": "",
+    "text": "Let \\(A\\) and \\(B\\) be two matrices such that \\(B\\) is invertible. Then \\(AB\\) and \\(BA\\) are similar.\n\nThe proof is just one line: \\[\nBA = B(AB)B^{-1}\n\\] The result also holds if \\(A\\) is invertible instead of \\(B\\). The result naturally holds if both \\(A\\) and \\(B\\) are invertible.\n\nLinear Transformations Perspective\nWe can view this from the perspective of linear transformations. Let \\(A\\) be the matrix representation of a linear transformation \\(T\\) from \\(\\mathbb{R}^{n} \\rightarrow \\mathbb{R}^{n}\\) with the standard basis \\(\\beta\\) for both domain and co-domain. We have: \\[\nA = [T]_{\\beta}^{\\beta}\n\\] Let \\(\\beta_{1}\\) represent the columns of \\(B\\) and let \\(\\beta_{2}\\) represent the columns of \\(B^{-1}\\). Then, we have: \\[\n\\begin{aligned}\nB &= [I]_{\\beta_1}^{\\beta}\\\\\\\\\n&= [I]_{\\beta}^{\\beta_2}\n\\end{aligned}\\quad \\quad \\quad \\quad \\begin{aligned}\nB^{-1} &= [I]_{\\beta_2}^{\\beta}\\\\\\\\\n&= [I]_{\\beta}^{\\beta_1}\n\\end{aligned}\n\\] What does \\(AB\\) mean? \\[\nAB = [T]_{\\beta}^{\\beta} [I]_{\\beta_1}^{\\beta} = [T]_{\\beta_1}^{\\beta}\n\\] \\(AB\\) is the matrix representation of \\(T\\) with basis \\(\\beta_1\\) for the domain and \\(\\beta\\) for the co-domain, where \\(\\beta_1\\) is made up of the columns of \\(B\\). Post-multiplying a matrix \\(A\\) with an invertible matrix just changes the basis of the domain for the corresponding linear transformation. It leaves the underlying transformation unchanged.\nWhat does \\(BA\\) mean? \\[\nBA = [I]_{\\beta}^{\\beta_2} [T]_{\\beta}^{\\beta} = [T]_{\\beta}^{\\beta_2}\n\\] \\(BA\\) is the matrix representation of \\(T\\) with basis \\(\\beta\\) for the domain and \\(\\beta_2\\) for the co-domain, where \\(\\beta_2\\) is made up of the columns of \\(B^{-1}\\). Pre-multiplying a matrix \\(A\\) with an invertible matrix just changes the basis of the co-domain for the corresponding linear transformation. It leaves the underlying transformation unchanged."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Refer to the navigation bar on the top to move between sections. This website is maintained by Karthik Thiagarajan, instructor, IIT Madras."
+  },
+  {
+    "objectID": "problems/problem_0026.html",
+    "href": "problems/problem_0026.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Let \\(v = (3, 1, 2)\\) be a vector in \\(\\mathbb{R}^{3}\\). If \\((a, b, c)\\) is the vector obtained from \\(v\\) after an anti-clockwise rotation of the \\(ZX\\) plane with angle \\(45^{\\circ}\\) about the \\(Y\\)-axis, then find the value of \\(\\sqrt{2}(a + b + c - 1)\\).\n\nThis rotation can be expressed as an orthogonal matrix. To get hold of this matrix, we can look at what happens when the standard basis elements undergo this transformation. Since the \\(ZX\\) plane is rotated, both \\(e_x\\) and \\(e_z\\) will change while \\(e_y\\) will remain fixed. \\[\nQ = \\begin{bmatrix}\n\\frac{1}{\\sqrt{2}} & 0 & -\\frac{1}{\\sqrt{2}}\\ \\\\\n0 & 1 & 0\\\\\n\\frac{1}{\\sqrt{2}} & 0 & \\frac{1}{\\sqrt{2}}\\\\\n\\end{bmatrix}\n\\] To see what happens to \\((3, 1, 2)\\), we just have to apply the transformation on it. Recall that this is a simple matrix-vector product: \\[\nQv = \\begin{bmatrix}\n\\frac{1}{\\sqrt{2}} & 0 & -\\frac{1}{\\sqrt{2}}\\ \\\\\n0 & 1 & 0\\\\\n\\frac{1}{\\sqrt{2}} & 0 & \\frac{1}{\\sqrt{2}}\\\\\n\\end{bmatrix} \\begin{bmatrix}\n3\\\\\n1\\\\\n2\n\\end{bmatrix} = \\begin{bmatrix}\n\\frac{1}{\\sqrt{2}}\\ \\\\\n1\\\\\n\\frac{5}{\\sqrt{2}}\n\\end{bmatrix}\n\\] The value \\(\\sqrt{2}\\left(\\frac{1}{\\sqrt{2}} + 1 + \\frac{5}{\\sqrt{2}} - 1 \\right) = \\boxed{6}\\)."
+  },
+  {
+    "objectID": "problems/problem_0027.html",
+    "href": "problems/problem_0027.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Let \\(A=\\begin{bmatrix} 1 & 2 & 3 & 4\\\\ 4 & 1 & 2 & 3\\\\ 3 & 4 & 1 & 2\\\\ 2 & 3 & 4 & 1 \\end{bmatrix}\\) and \\(B=\\begin{bmatrix} 3 & 4 & 1 & 2\\\\ 4 & 1 & 2 & 3\\\\ 1 & 2 & 3 & 4\\\\ 2 & 3 & 4 & 1 \\end{bmatrix}\\). If \\(\\text{det}( A)\\) and \\(\\text{det}( B)\\) denotes the determinants of these two matrices, select the true statement from the options given below.\n\n\\(\\text{det}( A) =\\text{det}( B)\\)\n\\(\\text{det}( A) =-\\text{det}( B)\\)\n\\(\\text{det}( A) =0\\)\n\\(\\text{det}( AB) =\\text{det}( A) +\\text{det}( B)\\)\n\n\n\\(A\\) and \\(B\\) have the order of rows \\(1\\) and \\(3\\) swapped. Swapping rows changes the sign of the determinant."
+  },
+  {
+    "objectID": "problems/problem_0022.html",
+    "href": "problems/problem_0022.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Compute \\(\\text{det}(A)\\) where \\(A = \\begin{bmatrix}1 & 2010 & 2020 \\times 2030\\\\1 & 2020 & 2030 \\times 2010\\\\1 & 2030 & 2010 \\times 2020\\end{bmatrix}\\)\n\n\\(\\text{det}(A)\\) is of the form: \\[\n\\begin{vmatrix}\n1 & a & bc\\\\\n1 & b & ca\\\\\n1 & c & ab\n\\end{vmatrix}\n\\] We shall now compute this determinant:\nStep-1: \\(R_2 \\rightarrow R_2 - R_1\\)\n\\[\n\\begin{vmatrix}\n1 & a & bc\\\\\n1 & b & ca\\\\\n1 & c & ab\n\\end{vmatrix} = \\begin{vmatrix}\n1 & a & bc\\\\\n0 & b - a & c(a - b)\\\\\n1 & c & ab\n\\end{vmatrix}\n\\]\nStep-2: \\(R_3 \\rightarrow R_3 - R_1\\)\n\\[\n\\begin{vmatrix}\n1 & a & bc\\\\\n1 & b & ca\\\\\n1 & c & ab\n\\end{vmatrix} = \\begin{vmatrix}\n1 & a & bc\\\\\n0 & b - a & c(a - b)\\\\\n0 & c - a & b(a - c)\n\\end{vmatrix}\n\\]\nStep-3: \\(R_2 \\rightarrow \\cfrac{1}{b - a} R_2\\) and \\(R_{3} \\rightarrow \\cfrac{1}{c - a} R_{3}\\)\nWe can divide by \\(b - a\\) and \\(c - a\\) as \\(a, b, c\\) are distinct.\n\\[\n\\begin{vmatrix}\n1 & a & bc\\\\\n1 & b & ca\\\\\n1 & c & ab\n\\end{vmatrix} = (b - a)(c - a)\\begin{vmatrix}\n1 & a & bc\\\\\n0 & 1 & -c\\\\\n0 & 1 & -b\n\\end{vmatrix}\n\\]\nWe can now expand along the first column. After moving some minus signs around, we get:\n\\[\n\\begin{vmatrix}\n1 & a & bc\\\\\n1 & b & ca\\\\\n1 & c & ab\n\\end{vmatrix} = (a - b)(b - c)(c - a)\n\\]\nWe can now plug in \\(a = 2010, b = 2020, c = 2030\\) to get the desired determinant. This turns out to be \\(\\boxed{2000}\\)."
+  },
+  {
+    "objectID": "problems/problem_0019.html",
+    "href": "problems/problem_0019.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Consider the matrix \\(A = \\begin{bmatrix}1 & 0\\\\C & 1\\end{bmatrix}\\), where \\(C\\) is some real number.\n\nWhat are the eigenvalues of \\(A\\)?\nSuppose \\(\\sigma_1\\) and \\(\\sigma_2\\) are the two singular values of \\(A\\), what is \\(\\sigma_1^2 + \\sigma_2^2\\)?\n\n\nSince \\(A\\) is a triangular matrix, the eigenvalues are the elements on the diagonal. \\(1\\) is the only eigenvalue here, but repeated twice. The singular values of \\(A\\) are the square roots of the eigenvalues of \\(A^TA\\). \\[\nA^TA = \\begin{bmatrix}\n1 & C\\\\\n0 & 1\n\\end{bmatrix} \\begin{bmatrix}\n1 & 0\\\\\nC & 1\n\\end{bmatrix} = \\begin{bmatrix}\n1 + C^2 & C\\\\\nC & 1\n\\end{bmatrix}\n\\] We are asked to find \\(\\sigma_1^2 + \\sigma_2^2\\). This is the sum of the roots of the following characteristic polynomial:\n\\[\n\\begin{aligned}\n\\left[(1 + C^2) - \\lambda\\right](1 - \\lambda) - C^2 &= 0\\\\\n\\implies \\lambda^2 - (2 + C^2) \\lambda + (1 - C^2) &= 0\n\\end{aligned}\n\\] The required sum is therefore \\(\\boxed{2 + C^2}\\)."
+  },
+  {
+    "objectID": "problems/problem_0025.html",
+    "href": "problems/problem_0025.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Choose the correct options.\n\nThe set \\(\\{(1, 2, 3), (4, 5, 6), (7, 8, 9)\\}\\) is linearly dependent.\nThe set \\(\\{(1, 2, 3), (4, 5, 6), (5, 7, 9)\\}\\) is linearly independent.\nThe set \\(\\{(1, 2, 3), (0, 5, 6), (0, 0, 9)\\}\\) is linearly independent.\nThe set \\(\\{(1, 2, 3), (0, 0, 6), (0, 0, 9)\\}\\) is linearly independent.\n\n\nOptions (a) and (c) are correct. Here is an algorithm that will work for any set of vectors:\n\nAdd the vectors as the rows of a matrix.\nIf the rank of the resulting matrix is equal to the number of rows, then the vectors are linearly independent.\nIf the rank of the matrix is less than the number of rows, then the vectors are linearly dependent.\n\nOption-(a) \\[\n\\begin{bmatrix}\n1 & 2 & 3\\\\\n4 & 5 & 6\\\\\n7 & 8 & 9\n\\end{bmatrix} \\rightarrow \\begin{bmatrix}\n1 & 2 & 3\\\\\n0 & -3 & -6\\\\\n7 & 8 & 9\n\\end{bmatrix} \\rightarrow \\begin{bmatrix}\n1 & 2 & 3\\\\\n0 & -3 & -6\\\\\n0 & -6 & -12\n\\end{bmatrix} \\rightarrow \\begin{bmatrix}\n1 & 2 & 3\\\\\n0 & 1 & 2\\\\\n0 & 1 & 2\n\\end{bmatrix} \\rightarrow \\begin{bmatrix}\n1 & 2 & 3\\\\\n0 & 1 & 2\\\\\n0 & 0 & 0\n\\end{bmatrix}\n\\] The vectors are linearly dependent.\nOption-(b) \\[\n\\begin{bmatrix}\n1 & 2 & 3\\\\\n4 & 5 & 6\\\\\n5 & 7 & 9\n\\end{bmatrix} \\rightarrow \\begin{bmatrix}\n1 & 2 & 3\\\\\n0 & -3 & -6\\\\\n5 & 7 & 9\n\\end{bmatrix} \\rightarrow \\begin{bmatrix}\n1 & 2 & 3\\\\\n0 & -3 & -6\\\\\n0 & -3 & -6\n\\end{bmatrix} \\rightarrow \\begin{bmatrix}\n1 & 2 & 3\\\\\n0 & 1 & 2\\\\\n0 & 0 & 0\n\\end{bmatrix}\n\\] The vectors are linearly dependent.\nOption-(c) \\[\n\\begin{bmatrix}\n1 & 2 & 3\\\\\n0 & 5 & 6\\\\\n0 & 0 & 9\n\\end{bmatrix}\n\\] This is clearly linearly independent.\nOption-(d)\n\\(\\{(1, 2, 3), (0, 0, 6), (0, 0, 9)\\}\\) is dependent. We can see that the third and second vectors are just multiples of each other."
+  },
+  {
+    "objectID": "problems/problem_0024.html",
+    "href": "problems/problem_0024.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Choose the correct set of options.\n\nIf two matrices \\(A\\) and \\(B\\) have the same reduced row echelon form, then \\(A\\) must be equal to \\(B\\).\nIf two matrices \\(A\\) and \\(B\\) have the same row echelon form, then \\(A\\) must be equal to \\(B\\).\nThe reduced row echelon form of a diagonal matrix with non-zero diagonal entries must be the identity matrix.\nThe reduced row echelon form of a non-zero scalar matrix must be the identity matrix.\n\n\nOptions (c) and (d) are correct.\n\nOption-(a) is incorrect. As a counter example, consider any two invertible matrices of the same order that are distinct from each other. Both have the same reduced row echelon form, namely the identity matrix.\nOption-(b) is incorrect. An argument similar to the previous bullet point can be applied here.\nOption-(c) is correct. In fact, as stated in the first point, any invertible matrix has the identity matrix as its reduced row echelon form. Since a diagonal matrix with non-zero diagonal entries is invertible, the result follows.\nOption-(d) is correct. A non-zero scalar matrix is an example of a diagonal matrix with non-zero diagonal entries."
+  },
+  {
+    "objectID": "problems/problem_0007.html",
+    "href": "problems/problem_0007.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Consider a set \\(V = \\{(x, y)\\ |\\ x, y \\in \\mathbb{R}\\}\\) with the usual rule of addition borrowed from \\(\\mathbb{R}^2\\) and scalar multiplication defined as:\n\\[\nc(x, y) = \\begin{cases}\n    (0, 0) & c = 0\\\\\n    (\\frac{cx}{2}, \\frac{y}{c}) & c \\neq 0\n\\end{cases}\n\\]\nConsider the statements given below:\n\\(\\mathbf{P}\\): \\(V\\) is closed under addition.\n\\(\\mathbf{Q}\\): \\(V\\) has a zero element with respect to addition.\n\\(\\mathbf{R}\\): \\(1.v=v\\) where \\(1 \\in \\mathbb{R}\\) and \\(v \\in V\\)\n\\(\\mathbf{S}\\) : \\(a(v_1 + v_2)=av_1 + av_2\\), where \\(v_1, v_2 \\in V\\) and \\(a \\in \\mathbb{R}\\)\n\\(\\mathbf{T}\\): \\((a + b)v = av + bv\\), where \\(a, b \\in \\mathbb{R}\\) and \\(v \\in V\\)\nChoose all correct options\n\nOnly \\(P\\) is true\nOnly \\(Q\\) is true\n\\(P, Q\\) and \\(S\\) are true\nBoth \\(R\\) and \\(T\\) are not true\n\n\nOptions (c) and (d) are correct.\n\n\\(P\\) is true as the addition operation is the usual one defined for \\(\\mathbb{R}^{2}\\)\n\\(Q\\) is also true as \\((0, 0)\\) is an element of \\(V\\)\n\\(R\\) is not true. Take \\(c = 1\\) and \\((x, y) = (1, 1)\\). Then \\(1(1, 1) = \\left(\\cfrac{1}{2}, 1\\right) \\neq (1, 1)\\).\n\\(S\\) is true.\n\nLet \\(v_1 = (x_1, y_1)\\) and \\(v_2 = (x_2, y_2)\\).\nOn the LHS we have:\n\n\\(v_1 + v_2 = (x_1 + x_2, y_1 + y_2)\\). Then, \\(a(v_1 + v_2) = \\left(\\cfrac{a}{2}(x_1 + x_2), \\cfrac{y_1 + y_2}{a}\\right)\\).\n\nOn the RHS we have:\n\n\\(av_1 + av_2 = \\left(\\cfrac{a}{2} x_1, \\cfrac{y_1}{a}\\right) + \\left( \\cfrac{a}{2} x_2, \\cfrac{y_2}{a}\\right) = \\left(\\cfrac{a}{2}(x_1 + x_2), \\cfrac{y_1 + y_2}{a}\\right)\\).\n\nThis is for \\(a \\neq 0\\). The proof for \\(a = 0\\) is quite trivial.\n\n\\(T\\) is not true. Set \\(a = 1, b = 1, v = (1, 1)\\). Then \\((a + b)v = 2(1, 1) = \\left(1, \\cfrac{1}{2}\\right)\\), while \\(av + bv = 1(1, 1) + 1(1, 1) = \\left(\\cfrac{1}{2}, 1\\right) + \\left(\\cfrac{1}{2}, 1\\right) = (1, 2)\\)."
+  },
+  {
+    "objectID": "problems/problem_0002.html",
+    "href": "problems/problem_0002.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "What is the product of the non-zero eigenvalues of the following matrix: \\[\n\\begin{bmatrix}\n1 & 0 & 0 & 0 & 1\\\\\n0 & 1 & 1 & 1 & 0\\\\\n0 & 1 & 1 & 1 & 0\\\\\n0 & 1 & 1 & 1 & 0\\\\\n1 & 0 & 0 & 0 & 1\n\\end{bmatrix}\n\\]\n\nThe product of the eigenvalues of a matrix is equal to its determinant. But the determinant of this matrix is zero and we are asked to compute the product of the non-zero eigenvalues. We should therefore take recourse to the characteristic polynomial: \\[\nD = \\begin{vmatrix}\n1 - \\lambda & 0 & 0 & 0 & 1\\\\\n0 & 1 - \\lambda & 1 & 1 & 0\\\\\n0 & 1 & 1 - \\lambda & 1 & 0\\\\\n0 & 1 & 1 & 1 - \\lambda & 0\\\\\n1 & 0 & 0 & 0 & 1 - \\lambda\n\\end{vmatrix}\n\\] Though this determinant looks forbidding, computing it is not all that cumbersome if we choose the right row/column along which to expand. Let us first break this down into the following sum by expanding along the first row: \\[\nD = (1 - \\lambda) \\begin{vmatrix}\n1 - \\lambda & 1 & 1 & 0\\\\\n1 & 1 - \\lambda & 1 & 0\\\\\n1 & 1 & 1 - \\lambda & 0\\\\\n0 & 0 & 0 & 1 - \\lambda\n\\end{vmatrix} + \\begin{vmatrix}\n0 & 1 - \\lambda & 1 & 1\\\\\n0 & 1 & 1 - \\lambda & 1\\\\\n0 & 1 & 1 & 1 - \\lambda\\\\\n1 & 0 & 0 & 0\n\\end{vmatrix}\n\\] The two determinants look quite similar to each other. We can expand along the last row for both of them: \\[\nD = \\left[(1 - \\lambda)^2 - 1 \\right] \\begin{vmatrix}\n1 - \\lambda & 1 & 1\\\\\n1 & 1 - \\lambda & 1\\\\\n1 & 1 & 1 - \\lambda\\\\\n\\end{vmatrix}\n\\] Let us first compute the \\(3 \\times 3\\) determinant: \\[\n\\begin{vmatrix}\n1 - \\lambda & 1 & 1\\\\\n1 & 1 - \\lambda & 1\\\\\n1 & 1 & 1 - \\lambda\\\\\n\\end{vmatrix} = - \\lambda^2 (\\lambda - 3)\n\\] Putting it all together: \\[\nD = -\\lambda^3(\\lambda - 2)(\\lambda - 3)\n\\] We see that there are five eigenvalues: \\(0, 0, 0, 2, 3\\). The product of the non-zero eigenvalues is therefore \\(\\boxed{6}\\)."
+  },
+  {
+    "objectID": "problems/problem_0001.html",
+    "href": "problems/problem_0001.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "If the following system has a non-trivial solution: \\[\n\\begin{aligned}\npx + qy + rz &= 0\\\\\nqx + ry + pz &= 0\\\\\nrx + py + qz &= 0\n\\end{aligned}\n\\] Then which one of the following options is true?\n(A) \\(p - q + r = 0\\) or \\(q = p = -r\\)\n(B) \\(p + q - r = 0\\) or \\(p = -q = r\\)\n(C) \\(p + q + r = 0\\) or \\(p = q = r\\)\n(D) \\(p - q + r = 0\\) or \\(p = -q = -r\\)\n\nThis is a homogenous system of linear equations. For this system to have a non-trivial solution, its nullspace should be non-trivial. Now for some row operations: \\[\n\\begin{bmatrix}\np & q & r\\\\\nq & r & p\\\\\nr & p & q\n\\end{bmatrix} \\xrightarrow[]{R_1 \\rightarrow R_1 + R_2 + R_3}\n\\begin{bmatrix}\np + q + r & p + q + r & p + q + r\\\\\nq & r & p\\\\\nr & p & q\n\\end{bmatrix}\n\\] If \\(p + q + r = 0\\) then the nullity is at least \\(1\\). So this is one condition. Let us now assume that \\(p + q + r \\neq 0\\) and proceed: \\[\n\\begin{bmatrix}\np + q + r & p + q + r & p + q + r\\\\\nq & r & p\\\\\nr & p & q\n\\end{bmatrix} \\xrightarrow[]{R_1 \\rightarrow \\frac{1}{p + q + r} R_1} \\begin{bmatrix}\n1 & 1 & 1\\\\\nq & r & p\\\\\nr & p & q\n\\end{bmatrix}\n\\] We can now proceed further: \\[\n\\begin{bmatrix}\n1 & 1 & 1\\\\\nq & r & p\\\\\nr & p & q\n\\end{bmatrix} \\rightarrow \\begin{bmatrix}\n1 & 1 & 1\\\\\n0 & r - q & p - r\\\\\n0 & p - r & q - r\n\\end{bmatrix}\n\\] The nullity can be non-zero if one of the last two rows is zero or one of them is a multiple of the other. If the second or third row is zero, we get \\(p = q = r\\). If not, then we have: \\[\nr - q = k(p - r) \\text{ and } p - r = k(q - r)\n\\] This is impossible for any real \\(k\\). Therefore, we have: \\[\n\\boxed{p + q + r = 0 \\text{ or } p = q = r}\n\\]"
+  },
+  {
+    "objectID": "problems/problem_0028.html",
+    "href": "problems/problem_0028.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Consider the quadratic function in three variables: \\[\nf(x, y, z) = 3x^2 - 2y^2 +z^2- 2xy + 4yz -8zx\n\\] If \\(u = \\begin{bmatrix}x & y & z\\end{bmatrix}^T\\) and \\(f(x, y, z) = u^T Au\\), which of the following is/are \\(A\\)?\n\n\\(\\begin{bmatrix} 3 & -1 & -4\\\\ -1 & -2 & 2\\\\ -4 & 2 & 1 \\end{bmatrix}\\)\n\\(\\begin{bmatrix} 3 & 4 & -4\\\\ -6 & -2 & 3\\\\ -4 & 1 & 1 \\end{bmatrix}\\)\n\\(\\begin{bmatrix} 3 & 0 & -4\\\\ -1 & -2 & 2\\\\ 0 & 1 & 1 \\end{bmatrix}\\)\n\\(\\begin{bmatrix} 3 & -2 & 1\\\\ -1 & 1 & 2\\\\ -4 & 0 & 1 \\end{bmatrix}\\)\n\n\nThe general expression of a quadratic form in \\(3\\) variables is given below:\n\\[\n\\begin{aligned}\nf(x, y, z) &= \\mathbf{x}^T \\mathbf{A} \\mathbf{x}\\\\\\\\\n&= a_{xx} x^2 + a_{yy}y^2 + a_{zz} z^2 + (a_{xy} + a_{yx}) xy + (a_{yz} + a_{zy}) yz + (a_{zx} + a_{xz}) zx\n\\end{aligned}\n\\]\nHere \\(\\mathbf{x} = \\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}\\) and \\(\\mathbf{A} =\\begin{bmatrix}a_{xx} & a_{xy} & a_{xz}\\\\a_{yx} & a_{yy} & a_{yz}\\\\a_{zx} & a_{zy} & a_{zz}\\end{bmatrix}\\)\nWe see that options (a) and (b) are valid choices for \\(A\\)."
+  },
+  {
+    "objectID": "problems/problem_0016.html",
+    "href": "problems/problem_0016.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "If \\(Ax = b\\) has a solution and \\(A^Ty = 0\\), what is the value of \\(y^T b\\)?\n\n\nLet \\(u\\) be a solution to the system, then \\(Au=b\\).\n\\(b^{T} y=( Au)^{T} y=u^{T} A^{T} y=0\\)"
+  },
+  {
+    "objectID": "problems/problem_0004.html",
+    "href": "problems/problem_0004.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Select all idempotent matrices from the options given below.\n\n\\(\\begin{bmatrix}3 & -6\\\\1 & -2\\end{bmatrix}\\)\n\\(\\begin{bmatrix}1 & -1\\\\0 & 1\\end{bmatrix}\\)\n\\(\\begin{bmatrix}2 & -2\\\\1 & -1\\end{bmatrix}\\)\n\\(\\begin{bmatrix}3 & 1\\\\-1 & 2\\end{bmatrix}\\)\n\n\nA matrix \\(A\\) is idempotent if \\(A^2 = A\\). Of the four matrices given here, exactly two of them are idempotent, (a) and (c)."
+  },
+  {
+    "objectID": "problems/problem_0014.html",
+    "href": "problems/problem_0014.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "\\(x\\) and \\(y\\) are vectors in \\(\\mathbb{R}^{n}\\). If \\(x-y\\) is orthogonal to \\(x+y\\), comment on the relationship between \\(||x||\\) and \\(||y||\\).\n\nIf \\(x-y\\) and \\(x+y\\) are orthogonal, then we have \\(\\langle x-y,x+y\\rangle =0\\). From this we get \\(\\langle x,x\\rangle =\\langle y,y\\rangle \\Longrightarrow ||x||=||y||\\)."
+  },
+  {
+    "objectID": "problems/problem_0023.html",
+    "href": "problems/problem_0023.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Consider the following system of linear equations:\n\\[\n\\begin{aligned}\nx_1 - 3x_2 &= 4\\\\\n3x_1 + kx_2 &= -12\n\\end{aligned}\n\\]\nwhere \\(k \\in \\mathbb{R}\\). If the given system has a unique solution, comment on the value that \\(k\\) cannot assume.\n\nIf \\(A\\) is a square matrix, then the system \\(Ax = b\\) has a unique solution when \\(A\\) is invertible. This happens when \\(\\text{det}(A) \\neq 0\\). Since we are asked to comment on the values that \\(k\\) cannot assume, we can set the determinant equal to zero: \\[\n\\begin{vmatrix}\n1 & -3\\\\\n3 & k\n\\end{vmatrix} = 0 \\implies k + 9 = 0 \\implies k = -9\n\\] The system will have a unique solution as long as \\(\\boxed{k \\neq -9}\\)."
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "SNO\nPresentation\nStatus\n\n\n\n\n1\nVector spaces\nPending review\n\n\n2\nLinear transformations\nPending review\n\n\n3\nNull space\nPending review"
+  },
+  {
+    "objectID": "presentations/presentation_0001.html#vector-spaces",
+    "href": "presentations/presentation_0001.html#vector-spaces",
+    "title": "Vector Spaces",
+    "section": "Vector Spaces",
+    "text": "Vector Spaces\n\\[\n(V, F), (+, .)\n\\]\n\n\\[\n\\begin{aligned}\n& x + (y + z) = (x + y) + z\\\\\\\\\n& x + y = y + x\\\\\\\\\n& x + 0 = x\\\\\\\\\n& x + (-x) = 0\n\\end{aligned}\n\\]\n\n\n\\[\n\\begin{aligned}\n& 1x = x\\\\\\\\\n& (ab)x = a(bx)\\\\\\\\\n& (a + b)x = ax + bx\\\\\\\\\n& a(x + y) = ax + ay\n\\end{aligned}\n\\]"
+  },
+  {
+    "objectID": "presentations/presentation_0001.html#vector-spaces-examples",
+    "href": "presentations/presentation_0001.html#vector-spaces-examples",
+    "title": "Vector Spaces",
+    "section": "Vector Spaces | Examples",
+    "text": "Vector Spaces | Examples\n\n\n\\(\\mathbb{R}\\)\n\\(\\mathbb{R}^2\\)\n\\(\\mathbb{R}^3\\)\n\\(\\mathbb{R}^n\\)\n\\(\\mathbb{R}^{m \\times n}\\)\nAll polynomials of degree at most \\(2\\)\nAll real-valued continuous functions on the interval \\([0, 1]\\)"
+  },
+  {
+    "objectID": "presentations/presentation_0001.html#vector-spaces-examples-polynomials",
+    "href": "presentations/presentation_0001.html#vector-spaces-examples-polynomials",
+    "title": "Vector Spaces",
+    "section": "Vector Spaces | Examples | Polynomials",
+    "text": "Vector Spaces | Examples | Polynomials\n\n\n\\(V\\): all polynomials of degree at most \\(2\\)\n\n\\(x^2\\)\n\\(x^2 - 3x + 4\\)\n\\(x^3 + x\\)\n\\(x\\)\n\\(0\\)\n\n\n\n\n\n\\(V\\): all polynomials of degree at most \\(2\\)\n\n\\(x^2 \\in V\\)\n\\(x^2 - 3x + 4 \\in V\\)\n\\(x^3 + x \\notin V\\)\n\\(x \\in V\\)\n\\(0 \\in V\\)\n\n\n\n\n\\((p_1x^2 + q_1 x + r_1) + (p_2 x^2 + q_2x + r_2) \\\\= (p_1 + p_2)x^2 + (q_1 + q_2)x + (r_1 + r_2)\\)\n\n\n\\(c(px^2 + qx + r) = (cp)x^2 + (cq)x + (cr)\\)"
+  },
+  {
+    "objectID": "presentations/presentation_0001.html#subspaces",
+    "href": "presentations/presentation_0001.html#subspaces",
+    "title": "Vector Spaces",
+    "section": "Subspaces",
+    "text": "Subspaces\n\n\nConsider \\(\\mathbb{R}^2\\)\n\\(U = \\{(x, x)\\ |\\  x,y\\in \\mathbb{R}\\}\\)\n\\(U\\) is a subspace of \\(\\mathbb{R}^2\\)\n\n\\((0, 0) \\in U\\)\n\\((x, x) \\in U \\text{ and } (y, y) \\in U\\)\n\n\\((x + y, x + y) \\in U\\)\n\\((cx, cx) \\in U\\)"
+  },
+  {
+    "objectID": "presentations/presentation_0001.html#linear-dependence-two-vectors-geometric",
+    "href": "presentations/presentation_0001.html#linear-dependence-two-vectors-geometric",
+    "title": "Vector Spaces",
+    "section": "Linear Dependence | Two Vectors | Geometric",
+    "text": "Linear Dependence | Two Vectors | Geometric"
+  },
+  {
+    "objectID": "presentations/presentation_0001.html#linear-dependence-two-vectors-algebraic",
+    "href": "presentations/presentation_0001.html#linear-dependence-two-vectors-algebraic",
+    "title": "Vector Spaces",
+    "section": "Linear Dependence | Two Vectors | Algebraic",
+    "text": "Linear Dependence | Two Vectors | Algebraic\nTwo vectors \\(u\\) and \\(v\\) are linearly dependent if one is a scalar multiple of the other: \\[\nu = cv \\quad \\text{ or } \\quad v = cu\n\\]\n\n\n\n\n\\[\nv = 2u\n\\]\n\n\n\\[\n\\boxed{2u + (-1) v = 0}\n\\]"
+  },
+  {
+    "objectID": "presentations/presentation_0001.html#linear-dependence-three-vectors",
+    "href": "presentations/presentation_0001.html#linear-dependence-three-vectors",
+    "title": "Vector Spaces",
+    "section": "Linear Dependence | Three vectors",
+    "text": "Linear Dependence | Three vectors\n\n\n\n\n\\[\nu = \\begin{bmatrix}\n1\\\\\n0\n\\end{bmatrix}, v = \\begin{bmatrix}\n0\\\\\n1\n\\end{bmatrix}, w = \\begin{bmatrix}\n2\\\\\n3\n\\end{bmatrix}\n\\]\n\n\n\\[\nw = 2u + 3v\n\\]\n\n\n\\[\n\\boxed{2u + 3v + (-1) w=0}\n\\]"
+  },
+  {
+    "objectID": "presentations/presentation_0001.html#linear-combination",
+    "href": "presentations/presentation_0001.html#linear-combination",
+    "title": "Vector Spaces",
+    "section": "Linear Combination",
+    "text": "Linear Combination\n\nGiven vectors \\(\\{v_1, \\cdots, v_n\\}\\) and scalars \\(c_1, \\cdots, c_n\\) the following is a linear combination:\n\n\n\\[\n\\large \\boxed{c_1 v_1 + \\cdots + c_n v_n}\n\\]"
+  },
+  {
+    "objectID": "presentations/presentation_0001.html#linear-dependence-n-vectors",
+    "href": "presentations/presentation_0001.html#linear-dependence-n-vectors",
+    "title": "Vector Spaces",
+    "section": "Linear Dependence | \\(n\\) vectors",
+    "text": "Linear Dependence | \\(n\\) vectors\n\n\\(S = \\{v_1, \\cdots, v_n\\}\\) is linearly dependent if we can find scalars \\(c_1, \\cdots, c_n\\) such that:\n\n\\(c_1 v_1 + \\cdots + c_n v_n = 0\\)\n\\(c_i \\neq 0\\) for at least one \\(i\\)\n\n\n\nIf \\(S\\) is linearly dependent with \\(c_k \\neq 0\\), then: \\[\nv_k = \\left(\\cfrac{-c_1}{c_k}\\right) v_1 + \\cdots + \\left(\\cfrac{-c_{k - 1}}{c_k}\\right) v_{k - 1} + \\left(\\cfrac{-c_{k + 1}}{c_k}\\right) v_{k + 1} + \\cdots + \\left(\\cfrac{-c_n}{c_k}\\right) v_n\n\\]"
+  },
+  {
+    "objectID": "presentations/presentation_0001.html#linear-dependence-examples",
+    "href": "presentations/presentation_0001.html#linear-dependence-examples",
+    "title": "Vector Spaces",
+    "section": "Linear Dependence | Examples",
+    "text": "Linear Dependence | Examples\n\n\\[\n\\begin{aligned}\nx &= (1, 2, -1, 4)\\\\\\\\\ny &= (0, 1, 3, 1)\\\\\\\\\nz &= (1, 3, 2, 5)\n\\end{aligned}\n\\]\n\n\n\\[\n\\begin{aligned}\n&z = x + y\\\\\\\\\n& \\implies x + y + (-1)z = 0\n\\end{aligned}\n\\]"
+  },
+  {
+    "objectID": "presentations/presentation_0001.html#linear-independence",
+    "href": "presentations/presentation_0001.html#linear-independence",
+    "title": "Vector Spaces",
+    "section": "Linear Independence",
+    "text": "Linear Independence\n\n\\(S = \\{v_1, \\cdots, v_n\\}\\) is linearly independent if it is not linearly dependent (OR)\n\n\n\\[\n\\large\\boxed{c_1v_1 + \\cdots + c_n v_n = 0 \\implies c_1 = \\cdots = c_n = 0}\n\\]"
+  },
+  {
+    "objectID": "presentations/presentation_0001.html#linear-independence-examples",
+    "href": "presentations/presentation_0001.html#linear-independence-examples",
+    "title": "Vector Spaces",
+    "section": "Linear Independence | Examples",
+    "text": "Linear Independence | Examples\n\n\\(S = \\{(1,0,0), (0, 1, 0), (0, 0, 1)\\}\\)\n\n\n\\[\n\\begin{aligned}\n&c_1(1,0,0) + c_2(0, 1, 0) + c_3(0, 0, 1) = (0, 0, 0)\\\\\\\\\n\\end{aligned}\n\\]\n\n\n\\[\n\\begin{aligned}\n&c_1(1,0,0) + c_2(0, 1, 0) + c_3(0, 0, 1) = (0, 0, 0)\\\\\\\\\n&(c_1, c_2, c_3) = (0, 0, 0)\\\\\\\\\n\\end{aligned}\n\\]\n\n\n\\[\n\\begin{aligned}\n&c_1(1,0,0) + c_2(0, 1, 0) + c_3(0, 0, 1) = (0, 0, 0)\\\\\\\\\n&(c_1, c_2, c_3) = (0, 0, 0)\\\\\\\\\n&\\implies c_1 = c_2 = c_3 = 0\n\\end{aligned}\n\\]"
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Notes",
+    "section": "",
+    "text": "An assorted collection of notes. This is the first point of entry for all ideas related to linear algebra. Think of this like a scratch space. Documents with status “Complete” are alone safe for perusal.\n\n\n\nNote\nStatus\n\n\n\n\nColumns space is orthogonal to the left null space\nPending review\n\n\nSpecial Matrices\nPending review\n\n\nQuadratic Forms\nPending review\n\n\nRow space is orthogonal to nullspace\nPending review\n\n\nSubspaces\nPending review\n\n\nVector Spaces\nPending review\n\n\nLinear Dependence and Independence\nPending review\n\n\nLeft Nullspace\nPending review\n\n\nComplex Numbers\nPending review\n\n\nComplex Vector Spaces\nPending review\n\n\nHermitian Matrices\nPending review\n\n\nCharacteristic Polynomial\nProof incomplete\n\n\nSome Questions on Similar Matrices\nIncomplete\n\n\nProducts of matrices are similar if one of them is invertible\nPending review"
+  },
+  {
+    "objectID": "presentations/presentation_0003.html#subspaces-matrix",
+    "href": "presentations/presentation_0003.html#subspaces-matrix",
+    "title": "Rank, Nullspace, Nullity, Rank-Nullity Theorem",
+    "section": "Subspaces | Matrix",
+    "text": "Subspaces | Matrix\n\n\\[\nA = \\begin{bmatrix}\n\\Large- & r_1 & \\Large-\\\\\n& \\vdots &\\\\\n\\Large- & r_m & \\Large-\n\\end{bmatrix}\n\\]\n\n\n\\[\nA = \\begin{bmatrix}\n\\Large- & r_1 & \\Large-\\\\\n& \\vdots &\\\\\n\\Large- & r_m & \\Large-\n\\end{bmatrix} = \\begin{bmatrix}\n| & & |\\\\\nv_1 & \\cdots & v_n\\\\\n| & & |\n\\end{bmatrix}\n\\]\n\n\n\\[\n\\begin{aligned}\n\\text{Row space} &= \\text{span}\\{r_1, \\cdots, r_m\\} \\subset \\mathbb{R}^n\\\\\n\\text{Column space} &= \\text{span}\\{c_1, \\cdots, c_n\\} \\subset \\mathbb{R}^m\n\\end{aligned}\n\\]\n\n\nFor any \\(m \\times n\\) matrix \\(A\\):\n\n\n\n\n\nSubspace\nParent\nDimension (term)\n\n\n\n\nRow space\n\\(\\mathbb{R}^{n}\\)\nrank (row rank)\n\n\nColumn space\n\\(\\mathbb{R}^{m}\\)\nrank (column rank)\n\n\n\n\n\n\n\n\n\n\nFor any \\(m \\times n\\) matrix \\(A\\):\n\n\n\n\n\nSubspace\nParent\nDimension (term)\n\n\n\n\nRow space\n\\(\\mathbb{R}^{n}\\)\nrank (row rank)\n\n\nColumn space\n\\(\\mathbb{R}^{m}\\)\nrank (column rank)\n\n\nNull space\n\\(\\mathbb{R}^{n}\\)\nnullity"
+  },
+  {
+    "objectID": "presentations/presentation_0003.html#null-space",
+    "href": "presentations/presentation_0003.html#null-space",
+    "title": "Rank, Nullspace, Nullity, Rank-Nullity Theorem",
+    "section": "Null space",
+    "text": "Null space\n\n\\[\n\\text{null space}(A) = \\{x\\ |\\ Ax = 0 \\text{ and } x \\in \\mathbb{R}^n\\}\n\\]\n\n\n\\[\n\\text{null space}(A) = \\text{set of solutions to the homogenous equation } Ax = 0\n\\]"
+  },
+  {
+    "objectID": "presentations/presentation_0003.html#null-space-is-a-subspace",
+    "href": "presentations/presentation_0003.html#null-space-is-a-subspace",
+    "title": "Rank, Nullspace, Nullity, Rank-Nullity Theorem",
+    "section": "Null space is a subspace",
+    "text": "Null space is a subspace\n\n\\(\\text{null space}(A) = \\{x\\ |\\ Ax = 0 \\text{ and } x \\in \\mathbb{R}^n\\}\\) is a subspace of \\(\\mathbb{R}^{n}\\)\n\n\n\n\\(0 \\in \\text{null space}(A)\\)\n\\(x, y \\in \\text{null space}(A)\\)\n\n\\(Ax = Ay = 0\\)\n\\(A(x + y) = 0 \\implies (x + y) \\in \\text{null space}(A)\\)\n\\(A(cx) = c(Ax) = 0 \\implies cx \\in \\text{null space}(A)\\)"
+  },
+  {
+    "objectID": "presentations/presentation_0003.html#null-space-of-a-and-textrrefa",
+    "href": "presentations/presentation_0003.html#null-space-of-a-and-textrrefa",
+    "title": "Rank, Nullspace, Nullity, Rank-Nullity Theorem",
+    "section": "Null space of \\(A\\) and \\(\\text{RREF}(A)\\)",
+    "text": "Null space of \\(A\\) and \\(\\text{RREF}(A)\\)\n\n\\(A\\) and \\(\\text{RREF}(A)\\) have the same null space\n\n\\(R = \\text{RREF}(A)\\)\nThere exists some invertible matrix \\(E\\) such that\n\\(R = EA\\)\n\n\n\n\n\\(x \\in \\text{null space}(A)\\)\n\n\\(Ax = 0\\)\n\\(EAx = 0\\)\n\\(Rx = 0\\)\n\\(x \\in \\text{null space}(R)\\)\n\n\n\n\n\n\\(x \\in \\text{null space}(R)\\)\n\\(Rx = 0\\)\n\\(EAx = 0\\)\n\\(Ax = 0\\)\n\\(x \\in \\text{null space}(A)\\)"
+  },
+  {
+    "objectID": "presentations/presentation_0003.html#solving-rx-0",
+    "href": "presentations/presentation_0003.html#solving-rx-0",
+    "title": "Rank, Nullspace, Nullity, Rank-Nullity Theorem",
+    "section": "Solving \\(Rx = 0\\)",
+    "text": "Solving \\(Rx = 0\\)\n\\[\n\\begin{bmatrix}\n\\boxed{1} & 1 & 0 & -1 & 0\\\\\n0 & 0 & \\boxed{1} & 0 & 2\\\\\n0 & 0 & 0 & 0 & 0\\\\\n\\end{bmatrix} \\begin{bmatrix}\nx_1\\\\\nx_2\\\\\nx_3\\\\\nx_4\\\\\nx_5\n\\end{bmatrix} = \\begin{bmatrix}\n0\\\\\n0\\\\\n0\n\\end{bmatrix}\n\\]\n\n\nDependent variables\n\n\\(x_1, x_3\\)\n\nIndependent variables\n\n\\(x_2, x_4, x_5\\)\n\n\n\n\n\n\\(x_2 = 1, x_4 = 0, x_5 = 0\\)\n\n\\(x_1 = -1, x_3 = 0\\)\n\n\\(x_2 = 0, x_4 = 1, x_5 = 0\\)\n\n\\(x_1 = 1, x_3 = 0\\)\n\n\\(x_2 = 0, x_4 = 0, x_5 = 1\\)\n\n\\(x_1 = 0, x_3 = -2\\)\n\n\n\n\n\\[\nB = \\begin{aligned}\n\\{\n&(-1, 1, 0, 0, 0)\\\\\n&(1, 0, 0, 1, 0)\\\\\n&(0, 0, -2, 0, 1)\\}\\\\\n\\end{aligned}\n\\]\n\\[\n\\text{null space}(R) = \\text{span}(B)\n\\]"
+  },
+  {
+    "objectID": "presentations/presentation_0003.html#rank-nullity-theorem",
+    "href": "presentations/presentation_0003.html#rank-nullity-theorem",
+    "title": "Rank, Nullspace, Nullity, Rank-Nullity Theorem",
+    "section": "Rank Nullity Theorem",
+    "text": "Rank Nullity Theorem\nFor any \\(m \\times n\\) matrix \\(A\\), we have:\n\n\\[\n\\Large \\boxed{\\text{rank}(A) + \\text{nullity}(A) = n}\n\\]\n\n\n\nRank\n\nNumber of non-zero rows in \\(Rx = 0\\)\nNumber of dependent variables in \\(Rx = 0\\)\n\nNullity\n\nNumber of independent variables in \\(Rx = 0\\)"
+  },
+  {
+    "objectID": "presentations/presentation_0002.html#linear-transformation",
+    "href": "presentations/presentation_0002.html#linear-transformation",
+    "title": "Linear Transformations",
+    "section": "Linear Transformation",
+    "text": "Linear Transformation\n\n\\[\nT: V \\rightarrow W\n\\]\n\n\\(T(u + v) = T(u) + T(v)\\)\n\\(T(cv) = cT(v)\\)\n\n\n\nExamples\n\n\\(T: \\mathbb{R} \\rightarrow \\mathbb{R}\\), \\(T(x) = 3x\\)\n\n\\(T(u + v) = 3(u + v) = 3u + 3v = T(u) + T(v)\\)\n\\(T(cv) = 3(cv) = c(3v) = cT(v)\\)\n\n\n\n\n\n\\(T: \\mathbb{R}^{2} \\rightarrow \\mathbb{R}^2, T(x, y) = (-x, y - x)\\)\n\n\\(T((x_1, y_1) + (x_2, y_2))\\)\n\n\\(= T(x_1 + x_2, y_1 + y_2)\\)\n\\(=(-x_1 -x_2, y_1 + y_2 - x_1 - x_2)\\)\n\\(=(-x_1, y_1 - x_1) + (-x_2, y_2 - x_2)\\)\n\\(=T(x_1, y_1) + T(x_2, y_2)\\)\n\n\\(T(c(x, y)) = (-cx, cy - cx) = c(-x, y - x) = cT(x, y)\\)"
+  },
+  {
+    "objectID": "presentations/presentation_0002.html#transformations-basis-matrix",
+    "href": "presentations/presentation_0002.html#transformations-basis-matrix",
+    "title": "Linear Transformations",
+    "section": "Transformations, Basis, Matrix",
+    "text": "Transformations, Basis, Matrix\n\\[\nT: \\mathbb{R}^2 \\rightarrow \\mathbb{R}^2\n\\]\n\n\n\\((x, y)\\)\n\n\\((x, y) = x(1, 0) + y(0, 1)\\)\n\n\\(T(x, y)\\)\n\n\\(= T(x(1, 0) + y(0, 1))\\)\n\\(=xT(1, 0) + yT(0, 1)\\)\n\n\n\n\n\n\\(T(1, 0) = (a, c)\\)\n\\(T(0, 1) = (b, d)\\)\n\\(T(x, y)\\)\n\n\\(= x(a, c) + y(b, d)\\)\n\\(=(ax + by, cx + dy)\\)\n\n\n\n\n\\(T(x, y) = \\begin{bmatrix}a & b\\\\c & d\\end{bmatrix} \\begin{bmatrix}x\\\\y\\end{bmatrix}\\)"
+  },
+  {
+    "objectID": "presentations/presentation_0002.html#inective-surjective-and-bijective",
+    "href": "presentations/presentation_0002.html#inective-surjective-and-bijective",
+    "title": "Linear Transformations",
+    "section": "Inective, Surjective and Bijective",
+    "text": "Inective, Surjective and Bijective\n\\[\nT: V \\rightarrow W\n\\]\n\nInective (one-one) \\[\nT(u) = T(v) \\implies u = v\n\\]\n\n\nSurjective (onto) \\[\n\\forall v \\in W, \\exists u \\in V, \\text{ such that } T(u) = v\n\\]\n\n\nBijective (one-one and onto) \n\n\\(T\\) is bijective if it is both injective and surjective\nA bijective linear transformation is called an isomorphism.\n\n\n\nExamples\n\n\\(T: \\mathbb{R}^{2} \\rightarrow \\mathbb{R}^2, T(x, y) = (2x, 3y)\\)\n\\(T: \\mathbb{R}^3 \\rightarrow \\mathbb{R}^{3}, T(x, y, z) = (z, y, x)\\)\n\n\n\nNon-examples\n\n\\(T: \\mathbb{R}^{2} \\rightarrow \\mathbb{R}, T(x, y) = x\\)\n\\(T: \\mathbb{R}^3 \\rightarrow \\mathbb{R}^{4}, T(x, y, z) = (z, y, x, 0)\\)"
+  },
+  {
+    "objectID": "problems.html",
+    "href": "problems.html",
+    "title": "Problems",
+    "section": "",
+    "text": "A collection of problems with detailed solutions. Only those problems with status complete are fit for perusal.\n\n\n\nSNO\nProblems\nStatus\n\n\n\n\n1\nSystem of linear equations\nComplete\n\n\n2\nProduct of eigenvalues\nComplete\n\n\n3\nAngle bisector\nComplete\n\n\n4\nIdempotent matrices\nComplete\n\n\n5\nIdentifying subspaces\nComplete\n\n\n6\nSubspaces\nComplete\n\n\n7\nVector space axioms\nComplete\n\n\n8\nRank\nComplete\n\n\n9\nSimilar matrices\nComplete\n\n\n10\nInverse\nComplete\n\n\n11\nOrthogonal matrices\nComplete\n\n\n12\nTriangular matrices\nComplete\n\n\n13\nSpaces of triangular matrices\nComplete\n\n\n14\nOrthogonal vectors\nComplete\n\n\n15\nRow space and null space\nComplete\n\n\n16\nMatrix-vector equations\nComplete\n\n\n17\nProjection on a vector\nComplete\n\n\n18\nSymmetric matrices and eigenbusiness\nComplete\n\n\n19\nEigenvalues and singular values\nComplete\n\n\n20\nLinear transformations\nComplete\n\n\n21\nLU decomposition\nComplete\n\n\n22\nDeterminants\nComplete\n\n\n23\nSystem of linear equations\nComplete\n\n\n24\nRow echelon form\nComplete\n\n\n25\nLinear independence and dependence\nComplete\n\n\n26\nRotation and orthogonal matrices\nComplete\n\n\n27\nDeterminants and row operations\nComplete\n\n\n28\nQuadratic forms\nComplete"
+  },
+  {
+    "objectID": "problems/problem_0003.html",
+    "href": "problems/problem_0003.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Let \\(u\\) and \\(v\\) be two vectors in \\(\\mathbb{R}^{2}\\) that satisfy \\(||u|| = 2 ||v||\\). What is the value of \\(\\alpha\\) such that \\(w = u + \\alpha v\\) bisects the angle between \\(u\\) and \\(v\\)?\n\nIf we have two vectors \\(x\\) and \\(y\\) such that \\(||x|| = ||y||\\), then the parallelogram formed by these two vectors turns out to be a rhombus. By the paralellogram law of vector addition, we know that \\(x\\) and \\(y\\) form two sides of a parallelogram whose diagonal is \\(x + y\\). When \\(||x|| = ||y||\\), this parallelogram is actually a rhombus, which is a parallelogram all of whose sides are equal. In a rhombus, the diagonals bisect the angle between the sides. Hence \\(x + y\\) is the angle bisector of \\(x\\) and \\(y\\).\n\nWe can now use this idea to solve the given problem. We are given that \\(w = u + \\alpha v\\). If \\(\\alpha = 2\\), then we have \\(w = u + 2v\\), in which the vectors being summed have equal norm. This comes from the data given to us: \\(||u|| = 2||v||\\). This guarantees that \\(w\\) is an angle bisector of \\(u\\) and \\(2v\\), which is the same as the angle bisector of \\(u\\) and \\(v\\). Recall that scaling a vector by a positive constant doesn’t change its direction. Hence, \\(\\boxed{\\alpha = 2}\\)."
+  },
+  {
+    "objectID": "problems/problem_0005.html",
+    "href": "problems/problem_0005.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Let \\(M_{2 \\times 2}(\\mathbb{R})\\) represent the set of all \\(2 \\times 2\\) real matrices. Now consider the following sets: \\[\n\\begin{align*}\nV_1 &= \\{A\\ |\\ A \\in M_{2 \\times 2}(\\mathbb{R}) \\text{ and } A \\text{ is a diagonal matrix}\\}\\\\\nV_2 &= \\{A\\ |\\ A \\in M_{2 \\times 2}(\\mathbb{R}) \\text{ and sum of diagonal elements of } A \\text{ is equal to 1}\\}\n\\end{align*}\n\\]\n\n\\(V_1\\) is a subspace of \\(M_{2 \\times 2}(\\mathbb{R})\\), but \\(V_2\\) is not\n\\(V_2\\) is a subspace of \\(M_{2 \\times 2}(\\mathbb{R})\\), but \\(V_1\\) is not\nBoth \\(V_1\\) and \\(V_2\\) are subspaces of \\(M_{2 \\times 2}(\\mathbb{R})\\)\nNeither \\(V_1\\) nor \\(V_2\\) are subspaces of \\(M_{2 \\times 2}(\\mathbb{R})\\)\n\n\n\\(V_2\\) does not have the zero element. \\(V_1\\) has the zero element, is closed under addition and scalar multiplication. The correct answer is (a)."
+  },
+  {
+    "objectID": "problems/problem_0015.html",
+    "href": "problems/problem_0015.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Does there exist a matrix whose row space contains \\((1, 2, 1)\\) and whose nullspace contains \\((1, -2, 1)\\)?\n\nThis is not possible as the row space is orthogonal to the nullspace. A proof this statement is given below. By convention all vectors are column vectors, hence row vectors are represented as \\(r_i^{T}\\).\n\nLet \\(A=\\begin{bmatrix}— & r_{1}^{T} & — \\\\ & \\vdots & \\\\— & r_{n}^{T} & —\\end{bmatrix}\\).\nLet \\(x\\in \\mathcal{N}( A) \\Longrightarrow Ax=0\\)\nDo this component wise. \\(r{_{i}}^{T} x=0\\) for \\(1\\leqslant i\\leqslant n\\) implying that \\(x\\) is perpendicular to every row.\nTherefore \\(x\\) is perpendicular to the row space of \\(A\\).\nIt follows the row space is orthogonal to the nullspace of \\(A\\)."
+  },
+  {
+    "objectID": "problems/problem_0020.html",
+    "href": "problems/problem_0020.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Let \\(T: \\mathbb{R}^{3} \\rightarrow \\mathbb{R}\\) be a function. Select all linear transformations.\n\n\\(T(v) = v/||v||\\)\n\\(T(v) = v_1 + v_2 + v_3\\), where \\(v = (v_1, v_2, v_3)\\)\n\\(T(v) = \\text{smallest component of } v\\)\n\\(T(v) = 0\\)\n\n\nOptions (b) and (d) are correct.\n\nOption (a) is clearly wrong as \\(T(0)\\) is not defined. That is, the domain doesn’t even contain \\(0\\). On the other hand, a linear transformation should take the \\(0\\) vector to \\(0\\).\nOption-(b) is correct. It can be verified that:\n\n\\(T((x_1, x_2, x_3) + (y_1, y_2, y_3)) = T(x_1, x_2, x_3) + T(y_1, y_2, y_3)\\)\n\\(T(c(x, y, z)) = cT(x, y, z)\\)\n\nOption (c) is wrong. Here is one example where the linearity is broken:\n\n\\(T((-1, 0, 0) + (1, 0, -1)) = T(0, 0, -1) = -1\\). But \\(T(-1, 0, 0) + T(1, 0, -1) = -2\\).\n\nOption-(d) is correct. It is the zero-transformation."
+  },
+  {
+    "objectID": "problems/problem_0021.html",
+    "href": "problems/problem_0021.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Consider the following matrix:\n\\[\n\\begin{equation*}\nA = \\begin{bmatrix}\n1 & 2 & 0 & 1\\\\\n2 & 4 & 1 & 4\\\\\n3 & 6 & 3 & 9\n\\end{bmatrix}\n\\end{equation*}\n\\]\n\nFind the rank of \\(A\\).\nFind a LU decomposition of \\(A\\) if it exists.\n\n\nLet us compute the row-echelon form of \\(A\\):\nStep-1: \\(R_2 \\rightarrow R_2 - 2R_1\\)\n\\[\n\\begin{bmatrix}\n1 & 2 & 0 & 1\\\\\n2 & 4 & 1 & 4\\\\\n3 & 6 & 3 & 9\n\\end{bmatrix} \\rightarrow \\begin{bmatrix}\n1 & 2 & 0 & 1\\\\\n0 & 0 & 1 & 2\\\\\n3 & 6 & 3 & 9\n\\end{bmatrix}\n\\]\nStep-2: \\(R_3 \\rightarrow R_3 - 3R_1\\)\n\\[\n\\begin{bmatrix}\n1 & 2 & 0 & 1\\\\\n0 & 0 & 1 & 2\\\\\n3 & 6 & 3 & 9\n\\end{bmatrix} \\rightarrow \\begin{bmatrix}\n1 & 2 & 0 & 1\\\\\n0 & 0 & 1 & 2\\\\\n0 & 0 & 3 & 6\n\\end{bmatrix}\n\\]\nStep-3: \\(R_3 \\rightarrow R_3 - 3R_2\\)\n\\[\n\\begin{bmatrix}\n1 & 2 & 0 & 1\\\\\n0 & 0 & 1 & 2\\\\\n0 & 0 & 3 & 6\n\\end{bmatrix} \\rightarrow \\begin{bmatrix}\n1 & 2 & 0 & 1\\\\\n0 & 0 & 1 & 2\\\\\n0 & 0 & 0 & 0\n\\end{bmatrix}\n\\]\nSince there are two non-zero rows in the REF of \\(A\\), the rank is \\(\\boxed{2}\\). Now for the LU decomposition. We already have \\(U\\). It is the row echelon from of \\(A\\). To get \\(L\\), we start with the identity matrix, invert each of the three steps and perform them in reverse order:\nStep-1: \\(R_2 \\rightarrow R_2 + 3R_2\\)\n\\[\n\\begin{bmatrix}\n1 & 0 & 0\\\\\n0 & 1 & 0\\\\\n0 & 0 & 1\n\\end{bmatrix} \\rightarrow \\begin{bmatrix}\n1 & 0 & 0\\\\\n0 & 1 & 0\\\\\n0 & 3 & 1\n\\end{bmatrix}\n\\] Step-2: \\(R_3 \\rightarrow R_3 + 3R_1\\)\n\\[\n\\begin{bmatrix}\n1 & 0 & 0\\\\\n0 & 1 & 0\\\\\n0 & 3 & 1\n\\end{bmatrix} \\rightarrow \\begin{bmatrix}\n1 & 0 & 0\\\\\n0 & 1 & 0\\\\\n3 & 3 & 1\n\\end{bmatrix}\n\\] Step-3: \\(R_2 \\rightarrow R_2 + 2R_1\\) \\[\n\\begin{bmatrix}\n1 & 0 & 0\\\\\n0 & 1 & 0\\\\\n3 & 3 & 1\n\\end{bmatrix} \\rightarrow \\begin{bmatrix}\n1 & 0 & 0\\\\\n2 & 1 & 0\\\\\n3 & 3 & 1\n\\end{bmatrix}\n\\]\nWe have \\(A = LU\\): \\[\n\\boxed{\\begin{bmatrix}\n1 & 2 & 0 & 1\\\\\n2 & 4 & 1 & 4\\\\\n3 & 6 & 3 & 9\n\\end{bmatrix} = \\begin{bmatrix}\n1 & 0 & 0\\\\\n2 & 1 & 0\\\\\n3 & 3 & 1\n\\end{bmatrix} \\begin{bmatrix}\n1 & 2 & 0 & 1\\\\\n0 & 0 & 1 & 2\\\\\n0 & 0 & 0 & 0\n\\end{bmatrix}}\n\\]\nHere \\(U\\) is just a row-echelon form of \\(A\\) and not an upper triangular matrix.\n\nHere is a loose argument as to why this algorithm works. Consider \\(E_1, \\cdots, E_k\\) as the sequence of elementary operations that convert \\(A\\) to \\(U\\). Then:\n\\[\n\\begin{aligned}\nE_k \\cdots E_1 A &= U\\\\\nE_k \\cdots E_1 A &= IU\\\\\nA &= (E_1^{-1} \\cdots E_k^{-1} I) U\\\\\nA &= LU\n\\end{aligned}\n\\]\nThere are several points that have not been clarified. For one, is \\(E_{1}^{-1} \\cdots E_{k}^{-1}\\) a lower triangular matrix? Does every matrix have a LU decomposition? These issues will be taken up in a separate post."
+  },
+  {
+    "objectID": "problems/problem_0006.html",
+    "href": "problems/problem_0006.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Select all true statements.\n\nThe intersection of two subspaces of a vector space is a subspace.\nThe union of two subspaces of a vector space is a subspace.\nThe empty set is a subspace of every vector space.\nEvery subset of a vector space need not be a subspace\n\n\nOptions (a) and (d) are correct. As a counter example for the second option, consider two subspaces for \\(\\mathbb{R}^{2}\\): the x-axis and the y-axis. Their union is not a subspace as it is not closed under vector addition. The third option is incorrect as every vector space ought to have the zero element."
+  },
+  {
+    "objectID": "problems/problem_0017.html",
+    "href": "problems/problem_0017.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Let \\(P\\) be the projection matrix that projects vectors in \\(\\mathbb{R}^{4}\\) onto the line \\((1, 2, -1, 1)\\). Compute the trace of \\(P\\).\n\n\\(P\\) is a projection transformation for \\(\\mathbb{R}^{n}\\) onto the vector \\(v=( v_{1} ,\\cdots ,v_{n})\\). Then for any \\(x\\in \\mathbb{R}^{n}\\):\n\\[\n\\begin{equation*}\n\\begin{aligned}\nP( x) & =\\frac{x^{T} v}{v^{T} v} v\n\\end{aligned}\n\\end{equation*}\n\\]\nThe matrix corresponding to this transformation is given by:\n\\[\n\\begin{equation*}\nP=\\begin{bmatrix}\n| &  & |\\\\\nP( e_{1}) & \\cdots  & P( e_{n})\\\\\n| &  & |\n\\end{bmatrix} =\\frac{1}{v^{T} v}\\begin{bmatrix}\n| &  & |\\\\\nv_{1} v & \\cdots  & v_{n} v\\\\\n| &  & |\n\\end{bmatrix} =\\frac{1}{v^{T} v} vv^{T}\n\\end{equation*}\n\\]\nWe have \\(P_{ii} =\\frac{v_{i}^{2}}{v^{T} v}\\). Summing this from \\(i=1\\) to \\(i=n\\), we get the trace as \\(1\\)."
+  },
+  {
+    "objectID": "problems/problem_0009.html",
+    "href": "problems/problem_0009.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "\\(A\\) and \\(B\\) are two square matrices. Select all correct options.\n\nIf \\(A\\) and \\(B\\) are similar then they have the same rank.\nIf \\(A\\) and \\(B\\) have the same rank then they are similar.\nIf \\(A\\) and \\(B\\) have the same trace, then \\(A\\) and \\(B\\) are similar.\nAny two diagonal matrices are similar.\n\n\nOption-(a) is the only correct answer.\n\nIf \\(A\\) and \\(B\\) are similar, there is an invertible matrix \\(P\\) such that \\(A = P^{-1} B P\\). Multiplying a matrix by an invertible matrix doesn’t change the rank of the resulting product. Hence the rank of \\(A\\) is equal to rank of \\(B\\).\nIf \\(A\\) and \\(B\\) have the same rank, then they need not be similar. As a counter example, consider the matrices \\(\\alpha I\\) and \\(\\beta I\\), where \\(I\\) is the identity matrix and \\(\\alpha \\neq \\beta\\). As long as \\(\\alpha \\beta \\neq 0\\), both matrices have the same rank (full rank). But they are not similar. This is because the only matrix similar to a scalar matrix is the matrix itself, which follows from this observation: \\(P^{-1}(\\alpha I)P = \\alpha I\\).\nIf \\(A\\) and \\(B\\) have the same trace, then they need not be similar. As a counter example, consider \\(\\alpha I\\) and a matrix \\(A\\) which has \\(n \\alpha\\) as one of its diagonal entries and zero in all other places. Here \\(n\\) is the order of the matrix. These two matrices have the same trace but are not similar and the argument is the same as the one presented in the previous bullet point.\nAny two diagonal matrices need not be similar. Refer to option-(b) for a counter example."
+  },
+  {
+    "objectID": "problems/problem_0011.html",
+    "href": "problems/problem_0011.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "If \\(A\\) is an orthogonal matrix in \\(\\mathbb{R}^{n \\times n}\\) and \\(b \\in \\mathbb{R}^{n}\\), then which of the following statements are true?\n\n\\(A\\) has orthonormal columns.\n\\(Ax = b\\) has a unique solution.\n\\(Ax = b\\) has no solutions.\n\\(Ax = b\\) has infinitely many solutions.\n\n\nOptions (a) and (b) are correct.\nA \\(n \\times n\\) matrix \\(A\\) is orthogonal if its columns are orthonormal. It follows that the columns of \\(A\\) are linearly independent. This implies that \\(A\\) is invertible and \\(Ax = b\\) has a unique solution. It is to be noted that the columns of an orthogonal matrix have to be orthonormal and not just orthogonal."
+  },
+  {
+    "objectID": "problems/problem_0018.html",
+    "href": "problems/problem_0018.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Select all true statements.\n\n\\(A^TA\\) is positive semi-definite.\n\\(A^TA\\) and \\(AA^T\\) have the same eigenvectors.\n\\(A^TA\\) is symmetric if and only if \\(A\\) is symmetric.\n\\(A^TA\\) and \\(AA^T\\) have the same non-zero eigenvalues.\n\n\nOptions (a) and (d) are correct.\nLet \\((\\lambda ,v)\\) be an eigenpair of of \\(A^{T} A\\) with \\(\\lambda \\neq 0\\):\n\\[\n\\begin{equation*}\n\\begin{aligned}\n\\left( A^{T} A\\right) v & =\\lambda v\\\\\n\\left( AA^{T}\\right) Av & =\\lambda ( Av)\\\\\n\\left( AA^{T}\\right)( Av) & =\\lambda ( Av)\n\\end{aligned}\n\\end{equation*}\n\\]\nThis is of the form \\(\\left( AA^{T}\\right) u=\\lambda u\\). For \\(( \\lambda ,u)\\) to be an eigenpair of \\(AA^{T}\\), \\(u=Av\\) has to be non-zero. To show this, do the following. If \\(u=Av=0\\), then \\(A^{T} Av=0\\Longrightarrow \\lambda v=0\\). Since \\(\\lambda \\neq 0\\), \\(v=0\\) which contradicts the fact that \\(( \\lambda ,v)\\) is an eigenpair of \\(A^{T} A\\).\n\nLet \\(( \\lambda ,v)\\) be an eigenpair of \\(A^{T} A\\). Then:\n\\[\n\\begin{equation*}\n\\begin{aligned}\nA^{T} Av & =\\lambda v\\\\\nv^{T} A^{T} Av & =\\lambda \\left( v^{T} v\\right)\\\\\n( Av)^{T}( Av) & =\\lambda \\left( v^{T} v\\right)\\\\\n\\Longrightarrow \\lambda  & =\\frac{||Av||^{2}}{||v||^{2}} \\geqslant 0\n\\end{aligned}\n\\end{equation*}\n\\]\nWe can divide by \\(||v||^{2}\\) as \\(v\\neq 0\\) for it is an eigenvector. Since all the eigenvalues of \\(A^{T} A\\) are non-negative, \\(A^{T} A\\) is positive semi definite."
+  },
+  {
+    "objectID": "problems/problem_0010.html",
+    "href": "problems/problem_0010.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Assertion: If \\(A^2 + A = I\\), then \\(A^{-1} = A + I\\)\nReason: If \\(A\\) is an \\(m \\times n\\) matrix, \\(B\\) is an \\(n \\times p\\) matrix, with \\(AB = I\\), then \\(A^{-1} = B\\)\n\nAssertion is true and Reason is true. Reason is the correct explanation for Assertion.\nAssertion is true and Reason is true. Reason is not the correct explanation for Assertion.\nBoth Assertion and Reason are false.\nAssertion is true. Reason is False.\nAssertion is false. Reason is true.\n\n\nOption-(d) is the correct answer.\n\\(A^2 + A = I \\implies A(A + I) = I\\). Since \\(A\\) is a square matrix, \\(AB = I \\implies B = A^{-1}\\). So the Assertion is true. The Reason is however a false statement. It is true only if \\(A\\) and \\(B\\) are square matrices. In its current form \\(A\\) and \\(B\\) are not necessarily square."
+  },
+  {
+    "objectID": "problems/problem_0013.html",
+    "href": "problems/problem_0013.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Let \\(\\mathbb{R}^{n \\times n}\\) be the vector space of \\(n \\times n\\) matrices with the usual matrix addition and scalar multiplication defined on matrices. Let \\(\\mathcal{L}\\) be the subspace of all \\(n \\times n\\) lower triangular matrices and \\(\\mathcal{U}\\) be the subspace of all \\(n \\times n\\) upper triangular matrices. Select all true statements.\n\n\\(\\mathcal{L} \\cap \\mathcal{U}\\) contains just the zero matrix.\nThe dimension of \\(\\mathcal{L}\\) is \\(\\cfrac{n(n + 1)}{2}\\)\nThe dimension of \\(\\mathcal{U}\\) is \\(n^2\\)\n\\(\\mathcal{L}\\) and \\(\\mathcal{U}\\) are isomorhpic subspaces of \\(\\mathbb{R}^{n \\times n}\\)\n\n\nIn a lower(upper) triangular matrix, \\(\\cfrac{n(n + 1)}{2}\\) elements can be non-zero and the rest have to be zero. The dimension of the space follows. Every upper triangular matrix in \\(\\mathcal{U}\\) can be mapped to its transpose in \\(\\mathcal{L}\\). This specifies an isomorphism between the two spaces. Every diagonal matrix is both upper triangular and lower triangular. Hence \\(\\mathcal{L} \\cap \\mathcal{U}\\) is actually more numerous than just the singleton set. In fact, the intersection of these two subspaces is the subspace made up of all \\(n \\times n\\) diagonal matrices."
+  },
+  {
+    "objectID": "problems/problem_0012.html",
+    "href": "problems/problem_0012.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Find the number of true statements. Your answer should be between \\(0\\) and \\(4\\):\n\nThe product of two upper triangular matrices is upper triangular.\nThe product of two lower triangular matrices is lower triangular.\nIf \\(L\\) is a lower triangular matrix then \\(L^T\\) is lower triangular.\nIf \\(U\\) is an upper triangular matrix then \\(U^T\\) is lower triangular.\n\n\nThree of these statements are correct.\n\nThe product of any two upper (lower) triangular matrices is upper (lower) triangular. Another way of stating this is that the set of upper (lower) triangular matrices is closed under the operation of matrix multiplication.\n\nIf this is not immediately apparent, consider two upper triangular matrices \\(A\\) and \\(B\\). We can express \\(AB\\) as \\(\\begin{bmatrix}Ab_1 & \\cdots & Ab_n\\end{bmatrix}\\), where \\(b_i\\) is the \\(i^{th}\\) column of \\(B\\). The \\(i^{th}\\) column of \\(AB\\) is a linear combination of the columns of \\(A\\) with multipliers coming from \\(b_i\\). Since \\(B\\) is upper triangular, all entries below the \\(i^{th}\\) coefficient in \\(b_i\\) are zero. This means that \\(Ab_i\\) will just be a linear combination of the first \\(i\\) columns of \\(A\\). Since \\(A\\) is also upper triangular, all the elements below the \\(i^{th}\\) row are zero for the first \\(i\\) columns implying that \\(Ab_i\\) will also retain this property. As \\(i\\) was chosen arbitrarily, this property holds good for \\(AB\\) as a whole. \\(AB\\) is therefore upper triangular.\n\nAn upper triangular matrix is the transpose of a lower triangular matrix and vice versa."
+  },
+  {
+    "objectID": "problems/problem_0008.html",
+    "href": "problems/problem_0008.html",
+    "title": "Linear Algebra",
+    "section": "",
+    "text": "Let \\(A\\) and \\(B\\) be two matrices such that \\(AB\\) is defined. Select the most appropriate statement.\n\n\\(\\text{rank}(AB) = \\text{rank}(A) + \\text{rank}(B)\\)\n\\(\\text{rank}(AB) = \\text{rank}(A) \\cdot \\text{rank}(B)\\)\n\\(\\text{rank}(AB) = \\max(\\text{rank}(A), \\text{rank}(B))\\)\n\\(\\text{rank}(AB) = \\min(\\text{rank}(A), \\text{rank}(B))\\)\n\\(\\text{rank}(AB) \\leqslant \\max(\\text{rank}(A), \\text{rank}(B))\\)\n\\(\\text{rank}(AB) \\leqslant \\min(\\text{rank}(A), \\text{rank}(B))\\)\n\n\nOption (f) is correct.\nWe can view matrix multiplication in the following way. If \\(B = \\begin{bmatrix}b_1 & \\cdots & b_n\\end{bmatrix}\\) has \\(n\\) columns, then \\(AB\\) can be written as: \\[\nAB = \\begin{bmatrix}\nAb_1 & \\cdots & Ab_n\n\\end{bmatrix}\n\\] We see that the \\(i^{th}\\) column of \\(AB\\) is a linear combination of the columns of \\(A\\), with the multipliers coming from the \\(i^{th}\\) column of \\(b\\). Thus the column space of \\(AB\\) is a subset of the column space of \\(A\\). It follows that \\(\\text{rank}(AB) \\leqslant \\text{rank}(A)\\).\nWe could also view matrix multiplication in another way. If \\(A = \\begin{bmatrix}r_1^T\\\\\\vdots\\\\r_m^T\\end{bmatrix}\\) has \\(m\\) rows, then \\(AB\\) can be written as: \\[\nAB = \\begin{bmatrix}\nr_1^TB\\\\\n\\vdots\\\\\nr_m^TB\n\\end{bmatrix}\n\\] We see that the \\(i^{th}\\) row of \\(AB\\) is a linear combination of the rows of \\(B\\), with the multipliers coming form the \\(i^{th}\\) row of \\(A\\). Thus the row space of \\(AB\\) is a subspace of the row space of \\(B\\). It follows that \\(\\text{rank}(AB) \\leqslant \\text{rank}(B)\\).\nCombining the two inequalities, we have: \\[\n\\text{rank}(AB) \\leqslant \\min(\\text{rank}(A), \\text{rank}(B))\n\\]"
+  },
+  {
+    "objectID": "notes/note_0003.html",
+    "href": "notes/note_0003.html",
+    "title": "Quadratic Forms",
+    "section": "",
+    "text": "The general expression of a quadratic form in \\(3\\) variables is given below:\n\\[\n\\begin{aligned}\nf(x, y, z) &= \\mathbf{x}^T \\mathbf{A} \\mathbf{x}\\\\\\\\\n&= a_{xx} x^2 + a_{yy}y^2 + a_{zz} z^2 + (a_{xy} + a_{yx}) xy + (a_{yz} + a_{zy}) yz + (a_{zx} + a_{xz}) zx\n\\end{aligned}\n\\]\nHere \\(\\mathbf{x} = \\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}\\) and \\(\\mathbf{A} =\\begin{bmatrix}a_{xx} & a_{xy} & a_{xz}\\\\a_{yx} & a_{yy} & a_{yz}\\\\a_{zx} & a_{zy} & a_{zz}\\end{bmatrix}\\)"
+  },
+  {
+    "objectID": "notes/note_0002.html",
+    "href": "notes/note_0002.html",
+    "title": "Special Matrices",
+    "section": "",
+    "text": "This list contains a list of real matrices.\nDiagonal matrix\nA square matrix \\(D\\) is a diagonal matrix if all non-diagonal entries are zero. Any general \\(3 \\times 3\\) diagonal matrix would take this form: \\[\nD = \\begin{bmatrix}\na_{11} & 0 & 0\\\\\n0 & a_{22} & 0\\\\\n0 & 0 & a_{33}\n\\end{bmatrix}\n\\] Identity matrix\nAn identity matrix is a diagonal matrix all of whose diagonal entries is equal to \\(1\\): \\[\nI = \\begin{bmatrix}\n1 & 0 & 0\\\\\n0 & 1 & 0\\\\\n0 & 0 & 1\n\\end{bmatrix}\n\\] Scalar matrix\nA square matrix \\(S\\) is a scalar matrix if it is a diagonal matrix all of whose diagonal entries are the same. \\[\nS = \\begin{bmatrix}\nc & 0 & 0\\\\\n0 & c & 0\\\\\n0 & 0 & c\\\\\n\\end{bmatrix} = c \\cdot I\n\\] Another way of expressing a scalar matrix is to represent it as some constant multiple of the identity matrix.\nLower triangular matrix\nA square matrix \\(L\\) is a lower triangular matrix if all entries above the main diagonal are zero. Any general \\(3 \\times 3\\) lower triangular matrix would take this form: \\[\nL = \\begin{bmatrix}\na_{11} & 0 & 0\\\\\na_{21} & a_{22} & 0\\\\\na_{31} & a_{32} & a_{33}\n\\end{bmatrix}\n\\] Upper triangular matrix\nA square matrix \\(U\\) is an upper triangular matrix if all entries below the main diagonal are zero. Any general \\(3 \\times 3\\) upper triangular matrix would take the form: \\[\nU = \\begin{bmatrix}\na_{11} & a_{12} & a_{13}\\\\\n0 & a_{22} & a_{23}\\\\\n0 & 0 & a_{33}\n\\end{bmatrix}\n\\] Every upper triangular matrix is the transpose of some lower triangular matrix.\nSymmetric matrix\nA square matrix \\(S\\) is a symmetric matrix if it is equal to its transpose: \\[\nS = S^T\n\\] Any \\(3 \\times 3\\) symmetric matrix can be expressed as follows: \\[\n\\begin{bmatrix}\na & b & c\\\\\nb & d & e\\\\\nc & e & f\n\\end{bmatrix}\n\\] Orthogonal matrix\nA square matrix \\(Q\\) is orthogonal if its columns are orthonormal. Another way of defining an orthogonal matrix is to note the following: \\[\nQ^TQ = QQ^T = I\n\\]"
+  },
+  {
+    "objectID": "notes/note_0008.html",
+    "href": "notes/note_0008.html",
+    "title": "Left Nullspace",
+    "section": "",
+    "text": "The left nullspace of a \\(m \\times n\\) matrix \\(A\\) is the following subset of \\(\\mathbb{R}^{m}\\): \\[\n\\{x\\ |\\ x^T A = 0, x \\in \\mathbb{R}^{m}\\}\n\\] Since \\(x^TA = 0 \\implies (x^TA)^T = 0 \\implies A^Tx = 0\\), we see that the left nullspace of \\(A\\) is simply the nullspace of \\(A^T\\). Therefore, we will denote the left nullspace \\(\\mathcal{N}(A^T)\\) and fix the definition: \\[\n\\mathcal{N}(A^T) = \\{x\\ |\\ A^Tx = 0, x \\in \\mathbb{R}^{m}\\}\n\\] This is clearly a subspace of \\(\\mathbb{R}^{m}\\)."
+  },
+  {
+    "objectID": "notes/note_0007.html",
+    "href": "notes/note_0007.html",
+    "title": "Linear Dependence and Independence",
+    "section": "",
+    "text": "Linear combination\nLet \\(S = \\{v_1, \\cdots, v_n\\}\\) be a set of vectors in \\(V\\). If \\(a_1, \\cdots, a_n\\) are scalars, then the following expression is called a linear combination: \\[\na_1 v_1 + \\cdots + a_n v_n\n\\] Linear dependence\nLet \\(S = \\{v_1, \\cdots, v_n\\}\\) be a set of vectors in \\(V\\). \\(S\\) is said to be linearly dependent if we can find scalars \\(a_1, \\cdots, a_n\\), with at least one \\(a_i \\neq 0\\) such that: \\[\na_1 v_1 + \\cdots + a_nv_n = 0\n\\] Linear independence\nLet \\(S = \\{v_1, \\cdots, v_n\\}\\) be a set of vectors in \\(V\\). \\(S\\) is said to be linearly independent if for every set of scalars \\(a_1, \\cdots, a_n\\): \\[\na_1v_1 + \\cdots + a_n v_n = 0 \\implies a_1 = \\cdots = a_n = 0\n\\]"
+  },
+  {
+    "objectID": "notes/note_0007.html#definition",
+    "href": "notes/note_0007.html#definition",
+    "title": "Linear Dependence and Independence",
+    "section": "",
+    "text": "Linear combination\nLet \\(S = \\{v_1, \\cdots, v_n\\}\\) be a set of vectors in \\(V\\). If \\(a_1, \\cdots, a_n\\) are scalars, then the following expression is called a linear combination: \\[\na_1 v_1 + \\cdots + a_n v_n\n\\] Linear dependence\nLet \\(S = \\{v_1, \\cdots, v_n\\}\\) be a set of vectors in \\(V\\). \\(S\\) is said to be linearly dependent if we can find scalars \\(a_1, \\cdots, a_n\\), with at least one \\(a_i \\neq 0\\) such that: \\[\na_1 v_1 + \\cdots + a_nv_n = 0\n\\] Linear independence\nLet \\(S = \\{v_1, \\cdots, v_n\\}\\) be a set of vectors in \\(V\\). \\(S\\) is said to be linearly independent if for every set of scalars \\(a_1, \\cdots, a_n\\): \\[\na_1v_1 + \\cdots + a_n v_n = 0 \\implies a_1 = \\cdots = a_n = 0\n\\]"
+  },
+  {
+    "objectID": "notes/note_0007.html#examples",
+    "href": "notes/note_0007.html#examples",
+    "title": "Linear Dependence and Independence",
+    "section": "Examples",
+    "text": "Examples\n\n\\(\\{(1, 2), (2, 4)\\}\\) is linearly dependent in \\(\\mathbb{R}^{2}\\).\n\\(\\{(1, 0, 0), (0, 1, 0), (0, 0, 1)\\}\\) is linearly independent in \\(\\mathbb{R}^{3}\\)."
+  },
+  {
+    "objectID": "notes/note_0007.html#useful-results",
+    "href": "notes/note_0007.html#useful-results",
+    "title": "Linear Dependence and Independence",
+    "section": "Useful results",
+    "text": "Useful results\n\nIf \\(0 \\in S\\) then \\(S\\) is linearly dependent.\nIf \\(S = \\{u\\}\\) with \\(u \\neq 0\\), then \\(S\\) is linearly independent.\nIf \\(S = \\{u, cu\\}\\) is linearly dependent where \\(c \\in \\mathbb{R}\\).\nIf \\(S\\) is linearly dependent, then every superset of \\(S\\) is linearly dependent.\nIf \\(S\\) is linearly independent, then every subset of \\(S\\) is linearly independent."
+  },
+  {
+    "objectID": "notes/note_0012.html",
+    "href": "notes/note_0012.html",
+    "title": "Characteristic Polynomial",
+    "section": "",
+    "text": "If \\((\\lambda, v)\\) is an eigenpair of a square matrix \\(A\\) of order \\(n\\), then: \\[\n\\begin{aligned}\nAv &= \\lambda v\\\\\nAv &= \\lambda (Iv)\\\\\nAv &= (\\lambda I)v\\\\\nAv - (\\lambda I) v &= 0\\\\\n(A - \\lambda I)v &= 0\n\\end{aligned}\n\\] Since \\(v \\neq 0\\), \\(A - \\lambda I\\) must have non-zero nullity. This implies that \\(A - \\lambda I\\) is not full rank. From this it follows that \\(|A - \\lambda I| = 0\\). We now claim that \\(|A - \\lambda I|\\) is a polynomial in \\(\\lambda\\) of degree \\(n\\). For the proof of this statement, refer Terence Tao’s notes."
+  },
+  {
+    "objectID": "notes/note_0011.html",
+    "href": "notes/note_0011.html",
+    "title": "Hermitian Matrices",
+    "section": "",
+    "text": "We now turn our attention to matrices. We are familiar with real matrices. A complex matrix will have complex entries. A simple example follows:\n\\[\n\\begin{equation*}\n\\mathbf{A} =\\begin{bmatrix}\ni & 2+i & -1+3i\\\\\n0 & -4 & 1-5i\n\\end{bmatrix}\n\\end{equation*}\n\\] \\(\\displaystyle \\mathbf{A}\\) is a \\(\\displaystyle 2\\times 3\\) complex matrix. A word about notations:\n\nMatrices will be represented using bold capital letters.\nVectors will be represented using bold small letters.\nScalars will be represented using plain small letters.\n\nMost of the operations on real matrices carry over to their complex counterparts. Addition, matrix multiplication, transpose are all similar. One important addition to the list of operations is the conjugate transpose."
+  },
+  {
+    "objectID": "notes/note_0011.html#introduction",
+    "href": "notes/note_0011.html#introduction",
+    "title": "Hermitian Matrices",
+    "section": "",
+    "text": "We now turn our attention to matrices. We are familiar with real matrices. A complex matrix will have complex entries. A simple example follows:\n\\[\n\\begin{equation*}\n\\mathbf{A} =\\begin{bmatrix}\ni & 2+i & -1+3i\\\\\n0 & -4 & 1-5i\n\\end{bmatrix}\n\\end{equation*}\n\\] \\(\\displaystyle \\mathbf{A}\\) is a \\(\\displaystyle 2\\times 3\\) complex matrix. A word about notations:\n\nMatrices will be represented using bold capital letters.\nVectors will be represented using bold small letters.\nScalars will be represented using plain small letters.\n\nMost of the operations on real matrices carry over to their complex counterparts. Addition, matrix multiplication, transpose are all similar. One important addition to the list of operations is the conjugate transpose."
+  },
+  {
+    "objectID": "notes/note_0011.html#conjugate-transpose",
+    "href": "notes/note_0011.html#conjugate-transpose",
+    "title": "Hermitian Matrices",
+    "section": "Conjugate Transpose",
+    "text": "Conjugate Transpose\nWhat is true for a vector can be extended to the case of any general \\(\\displaystyle m\\times n\\) matrix. Given a complex matrix \\(\\displaystyle \\mathbf{A}\\), its conjugate transpose is denoted by \\(\\displaystyle \\mathbf{A}^{H}\\) or \\(\\displaystyle \\mathbf{A}^{*}\\). A simple example follows:\n\\[\n\\begin{equation*}\n\\mathbf{A} =\\begin{bmatrix}\n1 & 2i\\\\\n3+i & 5\\\\\n1-i & 0\n\\end{bmatrix} \\Longrightarrow \\mathbf{A}^{*} =\\begin{bmatrix}\n1 & 3-i & 1+i\\\\\n-2i & 5 & 0\n\\end{bmatrix}\n\\end{equation*}\n\\] \\(\\displaystyle \\mathbf{A}\\) is a \\(\\displaystyle 3\\times 2\\) matrix and \\(\\displaystyle \\mathbf{A}^{*}\\) is a \\(\\displaystyle 2\\times 3\\) matrix. As noted earlier, the order of operations doesn’t matter. We could do the transpose first and then the conjugate or vice-versa. Now, let us quickly state two useful properties of the conjugate transpose:\n\n\\(\\displaystyle \\left(\\mathbf{A}^{*}\\right)^{*} =\\mathbf{A}\\)\n\\(\\displaystyle (\\mathbf{AB})^{*} =\\mathbf{B}^{*}\\mathbf{A}^{*}\\)\n\nThe real counterparts of these two properties are \\(\\displaystyle \\left(\\mathbf{A}^{T}\\right)^{T} =\\mathbf{A}\\) and \\(\\displaystyle (\\mathbf{AB})^{T} =\\mathbf{B}^{T}\\mathbf{A}^{T}\\)."
+  },
+  {
+    "objectID": "notes/note_0011.html#hermitian-matrices",
+    "href": "notes/note_0011.html#hermitian-matrices",
+    "title": "Hermitian Matrices",
+    "section": "Hermitian Matrices",
+    "text": "Hermitian Matrices\nRecall the idea of a symmetric real matrix. A matrix \\(\\displaystyle \\mathbf{A}\\) is symmetric if \\(\\displaystyle \\mathbf{A}^{T} =\\mathbf{A}\\). When it comes to complex matrices, the conjugate transpose gains the upper hand over the simple transpose. The complex analogue of a real symmetric matrix is a Hermitian matrix:\n\nA matrix \\(\\displaystyle \\mathbf{A}\\) is a Hermitian matrix if \\(\\displaystyle \\mathbf{A}^{*} =\\mathbf{A}\\)\n\nAn example of a Hermitian matrix is as follows:\n\\[\n\\begin{equation*}\n\\mathbf{A} =\\begin{bmatrix}\n1 & 2+4i\\\\\n2-4i & 3\n\\end{bmatrix}\n\\end{equation*}\n\\] Then,\n\\[\n\\begin{equation*}\n\\mathbf{A}^{*} =\\begin{bmatrix}\n1 & 2+4i\\\\\n2-4i & 3\n\\end{bmatrix}\n\\end{equation*}\n\\] We see that \\(\\displaystyle \\mathbf{A}^{*} =\\mathbf{A}\\), therefore \\(\\displaystyle \\mathbf{A}\\) is a Hermitian matrix. Note that a Hermitian matrix has to be a square matrix. An alternative way of defining a Hermitian matrix is using the individual elements. If \\(\\displaystyle A_{ij}\\) denotes the \\(\\displaystyle j^{th}\\) element in the \\(\\displaystyle i^{th}\\) row of the matrix, then for a Hermitian matrix: \\[\n\\begin{equation*}\nA_{ij} =\\overline{A_{ji}}\n\\end{equation*}\n\\]"
+  },
+  {
+    "objectID": "notes/note_0011.html#displaystyle-2times-2-hermitian-matrices",
+    "href": "notes/note_0011.html#displaystyle-2times-2-hermitian-matrices",
+    "title": "Hermitian Matrices",
+    "section": "\\(\\displaystyle 2\\times 2\\) Hermitian Matrices",
+    "text": "\\(\\displaystyle 2\\times 2\\) Hermitian Matrices\nLet us now try to find out a general form for all \\(\\displaystyle 2\\times 2\\) Hermitian matrices. Let \\(\\displaystyle \\mathbf{A}\\) be some arbitrary \\(\\displaystyle 2\\times 2\\) complex matrix, with complex numbers \\(\\displaystyle a,b,c,d\\) as its entries:\n\\[\n\\begin{equation*}\n\\mathbf{A} =\\begin{bmatrix}\na & b\\\\\nc & d\n\\end{bmatrix}\n\\end{equation*}\n\\] If \\(\\displaystyle \\mathbf{A}\\) has to be Hermitian, then \\(\\displaystyle \\mathbf{A}^{*} =\\mathbf{A}\\). This leads us to:\n\\[\n\\begin{equation*}\n\\begin{bmatrix}\n\\overline{a} & \\overline{c}\\\\\n\\overline{b} & \\overline{d}\n\\end{bmatrix} =\\begin{bmatrix}\na & b\\\\\nc & d\n\\end{bmatrix}\n\\end{equation*}\n\\] Two matrices are equal if and only if their corresponding elements are equal. Therefore, we have the following equalities:\n\\[\n\\begin{equation*}\n\\begin{aligned}\n\\overline{a} & =a\\\\\n\\overline{d} & =d\\\\\n\\overline{b} & =c\\\\\n\\overline{c} & =b\n\\end{aligned}\n\\end{equation*}\n\\] A complex number is equal to its conjugate if and only if it is a real number, which is same as saying that its imaginary part is 0. This means that \\(\\displaystyle a\\) and \\(\\displaystyle d\\) are real numbers. \\(\\displaystyle b\\) and \\(\\displaystyle c\\) are conjugates of each other. We now have all the ingredients to write the general form of any \\(\\displaystyle 2\\times 2\\) Hermitian matrix. With a slight abuse of notation, for real numbers \\(\\displaystyle a,b,c,d\\), \\(\\displaystyle \\mathbf{A}\\) as given below is a Hermitian matrix:\n\\[\n\\begin{equation*}\n\\mathbf{A} =\\begin{bmatrix}\nc & a+ib\\\\\na-ib & d\n\\end{bmatrix}\n\\end{equation*}\n\\] In fact, every \\(\\displaystyle 2\\times 2\\) Hermitian matrix, is associated with a unique tuple \\(\\displaystyle ( a,b,c,d)\\) of real numbers. Note that if \\(\\displaystyle b=0\\), then \\(\\displaystyle \\mathbf{A}\\) turns into a real symmetric matrix."
+  },
+  {
+    "objectID": "notes/note_0011.html#observations-and-properties",
+    "href": "notes/note_0011.html#observations-and-properties",
+    "title": "Hermitian Matrices",
+    "section": "Observations and Properties",
+    "text": "Observations and Properties\n\nAll real symmetric matrices are Hermitian. If \\(\\displaystyle \\mathbf{A}\\) is symmetric and real, then \\(\\displaystyle \\mathbf{A}^{T} =\\mathbf{A}\\) and \\(\\displaystyle \\overline{\\mathbf{A}} =\\mathbf{A}\\). From this, it follows that \\(\\displaystyle \\mathbf{A}^{*} =\\mathbf{A}\\).\nThe diagonal entries of a Hermitian matrix are real. We saw this in the case of \\(\\displaystyle 2\\times 2\\) Hermitian matrices. For the more general case of an \\(\\displaystyle n\\times n\\) Hermitian matrix, we can see that \\(\\displaystyle A_{ii} =\\overline{A_{ii}}\\). It follows that the diagonal elements have to be real.\nAll the eigenvalues of a Hermitian matrix are real. Let \\(\\displaystyle \\mathbf{A}\\) be Hermitian. Let \\(\\displaystyle ( \\lambda ,\\mathbf{v})\\) be an eigenvalue-eigenvector pair or eigenpair of \\(\\displaystyle \\mathbf{A}\\), then we have:\n\n\\[\n\\begin{equation*}\n\\begin{aligned}\n\\lambda \\mathbf{v}^{*}\\mathbf{v} & =\\mathbf{v}^{*}( \\lambda \\mathbf{v})\\\\\n& =\\mathbf{v}^{*}(\\mathbf{Av})\\\\\n& =\\mathbf{v}^{*}\\mathbf{Av}\\\\\n& =\\mathbf{v}^{*}\\mathbf{A}^{*}\\mathbf{v}\\\\\n& =\\left(\\mathbf{v}^{*}\\mathbf{A}^{*}\\right)\\mathbf{v}\\\\\n& =(\\mathbf{Av})^{*}\\mathbf{v}\\\\\n& =( \\lambda \\mathbf{v})^{*}\\mathbf{v}\\\\\n& =\\overline{\\lambda }\\mathbf{v}^{*}\\mathbf{v}\n\\end{aligned}\n\\end{equation*}\n\\]\nFrom this, we see that:\n\\[\n\\begin{equation*}\n\\begin{aligned}\n\\mathbf{v}^{*}\\mathbf{v}(\\overline{\\lambda } -\\lambda ) & =0\\\\\n\\overline{\\lambda } & =\\lambda\n\\end{aligned}\n\\end{equation*}\n\\] We can now conclude that \\(\\displaystyle \\lambda \\in \\mathbb{R}\\). We have used the fact that \\(\\displaystyle \\mathbf{v} \\neq \\mathbf{0}\\) as it is an eigenvector. Hence, \\(\\displaystyle \\mathbf{v}^{*}\\mathbf{v} \\neq 0\\).\n\nEigenvectors corresponding to distinct eigenvalues of a Hermitian matrix are orthogonal. That is, if \\(\\displaystyle ( \\lambda _{1} ,\\mathbf{v}_{1})\\) and \\(\\displaystyle ( \\lambda _{2} ,\\mathbf{v}_{2})\\) are two eigenpairs of a Hermitian matrix \\(\\displaystyle \\mathbf{A}\\) with \\(\\displaystyle \\lambda _{1} \\neq \\lambda _{2}\\), then \\(\\displaystyle \\mathbf{v}_{1} \\perp \\mathbf{v}_{2}\\). Let us prove this:\n\n\\[\n\\begin{equation*}\n\\begin{aligned}\n\\mathbf{Av}_{1} & =\\lambda _{1}\\mathbf{v}_{1}\\\\\n\\mathbf{v}_{2}^{*}\\mathbf{Av}_{1} & =\\lambda _{1}\\mathbf{v}_{2}^{*}\\mathbf{v}_{1}\\\\\n\\mathbf{v}_{2}^{*}\\mathbf{A}^{*}\\mathbf{v}_{1} & =\\lambda _{1}\\mathbf{v}_{2}^{*}\\mathbf{v}_{1}\\\\\n(\\mathbf{Av}_{2})^{*}\\mathbf{v}_{1} & =\\lambda _{1}\\mathbf{v}_{2}^{*}\\mathbf{v}_{1}\\\\\n( \\lambda _{2}\\mathbf{v}_{2})^{*}\\mathbf{v}_{1} & =\\lambda _{1}\\mathbf{v}_{2}^{*}\\mathbf{v}_{1}\\\\\n\\overline{\\lambda }_{2}\\mathbf{v}_{2}^{*}\\mathbf{v}_{1} & =\\lambda _{1}\\mathbf{v}_{2}^{*}\\mathbf{v}_{1}\\\\\n\\lambda _{2}\\mathbf{v}_{2}^{*}\\mathbf{v}_{1} & =\\lambda _{1}\\mathbf{v}_{2}^{*}\\mathbf{v}_{1}\\\\\n( \\lambda _{2} -\\lambda _{1})\\mathbf{v}_{2}^{*}\\mathbf{v}_{1} & =0\\\\\n\\Longrightarrow \\mathbf{v}_{2}^{*}\\mathbf{v}_{1} & =0\n\\end{aligned}\n\\end{equation*}\n\\]\n​ We can see that \\(\\displaystyle \\mathbf{v}_{2}^{*}\\mathbf{v}_{1} =0\\) and hence \\(\\displaystyle \\mathbf{v}_{1} \\perp \\mathbf{v}_{2}\\).\n\nGiven a Hermitian matrix \\(\\displaystyle \\mathbf{A}\\), for any vector \\(\\displaystyle \\mathbf{x}\\), the quantity \\(\\displaystyle \\mathbf{x}^{*}\\mathbf{Ax}\\) is a real number. To prove this, recall that a complex number \\(\\displaystyle z\\) is a real number if and only if \\(\\displaystyle \\overline{z} =z\\). Also recall that if \\(\\displaystyle \\mathbf{x} ,\\mathbf{y}\\) are two vectors, then \\(\\displaystyle \\overline{\\mathbf{x}^{*}\\mathbf{y}} =\\mathbf{y}^{*}\\mathbf{x}\\) (conjugate symmetry). We shall use these two as a part of the proof:\n\n\\[\n\\begin{equation*}\n\\begin{aligned}\n\\overline{\\mathbf{x}^{*}\\mathbf{Ax}} & =\\overline{\\mathbf{x}^{*}\\mathbf{A}^{*}\\mathbf{x}}\\\\\n& =\\overline{\\mathbf{x}^{*}\\left(\\mathbf{A}^{*}\\mathbf{x}\\right)}\\\\\n& =\\left(\\mathbf{A}^{*}\\mathbf{x}\\right)^{*}\\mathbf{x}\\\\\n& =\\mathbf{x}^{*}\\left(\\mathbf{A}^{*}\\right)^{*}\\mathbf{x}\\\\\n& =\\mathbf{x}^{*}\\mathbf{Ax}\n\\end{aligned}\n\\end{equation*}\n\\]\n​\nSince the conjugate of \\(\\displaystyle \\mathbf{x}^{*}\\mathbf{Ax}\\) is equal to it, \\(\\displaystyle \\mathbf{x}^{*}\\mathbf{Ax}\\) has to be a real number."
+  },
+  {
+    "objectID": "notes/note_0011.html#real-symmetric-matrices",
+    "href": "notes/note_0011.html#real-symmetric-matrices",
+    "title": "Hermitian Matrices",
+    "section": "Real Symmetric Matrices",
+    "text": "Real Symmetric Matrices\nAs stated earlier in the section on properties of Hermitian matrices, every real symmetric matrix is Hermitian. So, all that we have discussed regarding Hermitian matrices holds good for real symmetric matrices. Since we are dealing with real matrices, the conjugate transpose reduces to the just the transpose. Likewise, the complex inner product reduces to the simple dot product. We will briefly restate two important properties in the special case of real symmetric matrices:\n\nAll the eigenvalues of a real symmetric matrix are real.\nThe eigenvectors corresponding to distinct eigenvalues of a real symmetric matrix are orthogonal."
+  },
+  {
+    "objectID": "notes/note_0005.html",
+    "href": "notes/note_0005.html",
+    "title": "Subspaces",
+    "section": "",
+    "text": "Given a vector space \\(V\\), a subset \\(U\\) of \\(V\\) is a subspace if it is a vector space with respect to the addition and scalar multiplication operations inherited from \\(V\\)."
+  },
+  {
+    "objectID": "notes/note_0005.html#definition",
+    "href": "notes/note_0005.html#definition",
+    "title": "Subspaces",
+    "section": "",
+    "text": "Given a vector space \\(V\\), a subset \\(U\\) of \\(V\\) is a subspace if it is a vector space with respect to the addition and scalar multiplication operations inherited from \\(V\\)."
+  },
+  {
+    "objectID": "notes/note_0005.html#examples",
+    "href": "notes/note_0005.html#examples",
+    "title": "Subspaces",
+    "section": "Examples",
+    "text": "Examples\n\n\\(\\{0\\}\\) and \\(V\\) are subspaces of every vector space \\(V\\) and are therefore trivial examples.\nNon-trivial subspaces of \\(\\mathbb{R}^{2}\\) include all lines passing through the origin.\nNon-trivial subspaces of \\(\\mathbb{R}^{3}\\) include all lines and planes passing through the origin."
+  },
+  {
+    "objectID": "notes/note_0005.html#algorithm",
+    "href": "notes/note_0005.html#algorithm",
+    "title": "Subspaces",
+    "section": "Algorithm",
+    "text": "Algorithm\nTo determine if a subset \\(U\\) of \\(V\\) is a vector space, perform these three checks:\n\nCheck if \\(0 \\in U\\). Every vector space should have at least the zero element.\nFor arbitrary \\(u, v \\in U\\) and \\(a \\in \\mathbb{R}\\), check if:\n\n\\(u + v \\in U\\)\n\\(av \\in U\\)\n\nIf all three checks are successful, then \\(U\\) is a subspace of \\(V\\). \\(U\\) is not a subspace of \\(V\\) even if one of these three checks fails.\n\nFor example, let \\(U = \\{x + y + z = 0\\ |\\ x, y, z \\in \\mathbb{R}^3\\} \\subset V\\). \\(U\\) is a subspace of \\(\\mathbb{R}^{3}\\) as:\n\n\\((0, 0, 0) \\in U\\)\nLet \\((x_1, y_1, z_1) \\in U\\) and \\((x_2, y_2, z_2) \\in U\\), then we know that \\(x_1 + y_1 + z_1 = x_2 + y_2 + z_2 = 0\\). From this, we can infer:\n\n\\((x_1 + x_2) + (y_1 + y_2) + (z_1 + z_2) = 0\\) which implies \\((x_1, y_1, z_1) + (x_2, y_2, z_2) \\in U\\)\n\\(ax_1 + ay_1 + az_1 = 0\\) which implies \\(a(x_1, y_1, z_1) \\in U\\)"
+  }
+]
