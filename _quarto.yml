@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: "Linear Algebra"
+  navbar:
+    search: true
+    left:
+      - text: "Home"
+        file: index.md
+      - text: "Notes"
+        file: notes.md
+      - text: "Problems"
+        file: problems.md
+      - text: "Presentations"
+        file: presentations.md
+
+format:
+  html:
+    theme: cosmo
+    fontsize: 20px
+    toc: true
+    grid:
+      sidebar-width: 0px
+      margin-width: 300px
+      body-width: 800px
