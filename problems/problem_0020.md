@@ -1,3 +1,13 @@
+---
+title: Problem-20
+pagetitle: Problem-20
+sidebar: false
+order: 20
+categories: [linear maps]
+---
+
+## Question
+
 Let $T: \mathbb{R}^{3} \rightarrow \mathbb{R}$ be a function. Select all linear transformations.
 
 (a)  $T(v) = v/||v||$
@@ -8,10 +18,7 @@ Let $T: \mathbb{R}^{3} \rightarrow \mathbb{R}$ be a function. Select all linear 
 
 (d) $T(v) = 0$
 
-
-
-<hr>
-
+## Solution
 
 
 Options (b) and (d) are correct.

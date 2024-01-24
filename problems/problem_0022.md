@@ -1,6 +1,17 @@
+---
+title: Problem-22
+pagetitle: Problem-22
+sidebar: false
+order: 22
+categories: [determinants]
+---
+
+## Question
+
 Compute $\text{det}(A)$ where $A = \begin{bmatrix}1 & 2010 & 2020 \times 2030\\1 & 2020 & 2030 \times 2010\\1 & 2030 & 2010 \times 2020\end{bmatrix}$
 
-<hr>
+## Solution
+
 
 
 

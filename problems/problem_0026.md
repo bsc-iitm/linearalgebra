@@ -1,7 +1,16 @@
+---
+title: Problem-26
+pagetitle: Problem-26
+sidebar: false
+order: 26
+categories: [orthogonal matrices, geometry]
+---
+
+## Question
+
 Let $v = (3, 1, 2)$ be a vector in $\mathbb{R}^{3}$. If $(a, b, c)$ is the vector obtained from $v$ after an anti-clockwise rotation of the $ZX$ plane with angle $45^{\circ}$ about the $Y$-axis, then find the value of $\sqrt{2}(a + b + c - 1)$.
 
-<hr>
-
+## Solution
 
 This rotation can be expressed as an orthogonal matrix. To get hold of this matrix, we can look at what happens when the standard basis elements undergo this transformation. Since the $ZX$ plane is rotated, both $e_x$ and $e_z$ will change while $e_y$ will remain fixed.
 $$

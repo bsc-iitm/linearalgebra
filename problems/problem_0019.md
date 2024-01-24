@@ -1,3 +1,13 @@
+---
+title: Problem-19
+pagetitle: Problem-19
+sidebar: false
+order: 19
+categories: [eigenvalues, singular values]
+---
+
+## Question
+
 Consider the matrix $A = \begin{bmatrix}1 & 0\\C & 1\end{bmatrix}$, where $C$ is some real number.
 
 
@@ -6,8 +16,7 @@ Consider the matrix $A = \begin{bmatrix}1 & 0\\C & 1\end{bmatrix}$, where $C$ is
 
 (b) Suppose $\sigma_1$ and $\sigma_2$ are the two singular values of $A$, what is $\sigma_1^2 + \sigma_2^2$?
 
-<hr>
-
+## Solution
 
 
 Since $A$ is a triangular matrix, the eigenvalues are the elements on the diagonal. $1$ is the only eigenvalue here, but repeated twice. The singular values of $A$ are the square roots of the eigenvalues of $A^TA$. 

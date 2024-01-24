@@ -1,7 +1,16 @@
+---
+title: Problem-15
+pagetitle: Problem-15
+sidebar: false
+order: 15
+categories: [fundamental matrix subspaces]
+---
+
+## Question
+
 Does there exist a matrix whose row space contains $(1, 2, 1)$ and whose nullspace contains $(1, -2, 1)$?
 
-<hr>
-
+## Solution
 
 This is not possible as the row space is orthogonal to the nullspace. A proof this statement is given below. By convention all vectors are column vectors, hence row vectors are represented as $r_i^{T}$.
 

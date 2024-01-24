@@ -1,3 +1,13 @@
+---
+title: Problem-27
+pagetitle: Problem-27
+sidebar: false
+order: 27
+categories: [determinants]
+---
+
+## Question
+
 Let $A=\begin{bmatrix}
 1 & 2 & 3 & 4\\
 4 & 1 & 2 & 3\\
@@ -18,9 +28,7 @@ Let $A=\begin{bmatrix}
 
 (d) $\text{det}( AB) =\text{det}( A) +\text{det}( B)$
 
-<hr>
-
+## Solution
 
 
 $A$ and $B$ have the order of rows $1$ and $3$ swapped. Swapping rows changes the sign of the determinant.
-

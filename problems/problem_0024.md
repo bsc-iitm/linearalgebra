@@ -1,3 +1,13 @@
+---
+title: Problem-24
+pagetitle: Problem-24
+sidebar: false
+order: 24
+categories: [row echelon form]
+---
+
+## Question
+
 Choose the correct set of options.
 
 (a) If two matrices $A$ and $B$ have the same reduced row echelon form, then $A$ must be equal to $B$.
@@ -8,7 +18,8 @@ Choose the correct set of options.
 
 (d) The reduced row echelon form of a non-zero scalar matrix must be the identity matrix.
 
-<hr>
+## Solution
+
 
 Options (c) and (d) are correct.
 

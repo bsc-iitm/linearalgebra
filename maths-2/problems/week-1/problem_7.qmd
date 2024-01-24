@@ -1,0 +1,49 @@
+---
+title: Problem-7
+pagetitle: Problem-7
+categories: [determinants]
+---
+
+## Question
+
+What is the geometric interpretation of the determinant of a $2 \times 2$ matrix?
+
+## Solution
+
+The absolute value of a $\displaystyle 2\times 2$ determinant gives the area of the parallelogram formed by the two column vectors. For example, consider the matrix:
+$$
+A = \begin{bmatrix}
+1 & 2\\
+2 & 1
+\end{bmatrix}
+$$
+The two column vectors are plotted below and the parallelogram formed by them is completed. The area of this parallelogram is given by the absolute value of $\text{det}(A)$.
+
+```{python}
+#| fig-align: center
+#| echo: false
+import numpy as np
+import matplotlib.pyplot as plt
+plt.rcParams['mathtext.fontset'] = 'cm'
+plt.rcParams['font.size'] = 15
+plt.rcParams['text.latex.preamble'] = r'\usepackage{amsmath}'
+plt.rcParams['text.usetex'] = True
+#######################################
+plt.plot([0, 1], [0, 2], color = 'blue')
+plt.text(0.75, 2, r'$\begin{bmatrix}1\\2\end{bmatrix}$')
+plt.text(2.2, 1, r'$\begin{bmatrix}2\\1\end{bmatrix}$')
+plt.plot([0, 2], [0, 1], color = 'blue')
+plt.scatter([0, 1], [0, 2], color = 'red')
+plt.scatter([0, 2], [0, 1], color = 'red')
+plt.plot([1, 3], [2, 3], color = 'black', linestyle = '--')
+plt.plot([2, 3], [1, 3], color = 'black', linestyle = '--')
+########################################
+plt.xlabel(r'$x$')
+plt.ylabel(r'$y$')
+plt.xticks([ ])
+plt.yticks([ ])
+plt.axhline(color = 'black', linewidth = 0.5, linestyle = '--')
+plt.axvline(color = 'black', linewidth = 0.5, linestyle = '--')
+plt.show()
+```
+

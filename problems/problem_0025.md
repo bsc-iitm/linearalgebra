@@ -1,3 +1,13 @@
+---
+title: Problem-25
+pagetitle: Problem-25
+sidebar: false
+order: 25
+categories: [linear independence]
+---
+
+## Question
+
 Choose the correct options.
 
 (a) The set $\{(1, 2, 3), (4, 5, 6), (7, 8, 9)\}$ is linearly dependent.
@@ -8,8 +18,7 @@ Choose the correct options.
 
 (d) The set $\{(1, 2, 3), (0, 0, 6), (0, 0, 9)\}$ is linearly independent.
 
-<hr>
-
+## Solution
 
 
 Options (a) and (c) are correct. Here is an algorithm that will work for any set of vectors:

@@ -1,3 +1,13 @@
+---
+title: Problem-9
+pagetitle: Problem-9
+sidebar: false
+order: 9
+categories: [similarity]
+---
+
+## Question
+
 $A$ and $B$ are two square matrices. Select all correct options.
 
 (a) If $A$ and $B$ are similar then they have the same rank.
@@ -8,7 +18,8 @@ $A$ and $B$ are two square matrices. Select all correct options.
 
 (d) Any two diagonal matrices are similar.
 
-<hr>
+## Solution
+
 
 Option-(a) is the only correct answer.
 

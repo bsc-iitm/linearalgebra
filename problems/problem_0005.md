@@ -1,3 +1,13 @@
+---
+title: Problem-5
+pagetitle: Problem-5
+sidebar: false
+order: 5
+categories: [vector spaces, subspaces]
+---
+
+## Question
+
 Let $M_{2 \times 2}(\mathbb{R})$ represent the set of all $2 \times 2$ real matrices. Now consider the following sets:
 $$
 \begin{align*}
@@ -15,8 +25,7 @@ $$
 
 (d) Neither $V_1$ nor $V_2$ are subspaces of $M_{2 \times 2}(\mathbb{R})$
 
-<hr>
-
+## Solution
 
 
 $V_2$ does not have the zero element. $V_1$ has the zero element, is closed under addition and scalar multiplication. The correct answer is (a).

@@ -1,6 +1,17 @@
+---
+title: Problem-16
+pagetitle: Problem-16
+sidebar: false
+order: 16
+categories: [system of equations]
+---
+
+## Question
+
 If $Ax = b$ has a solution and $A^Ty = 0$, what is the value of $y^T b$?
 
-<hr>
+## Solution
+
 
 
 

@@ -1,3 +1,13 @@
+---
+title: Problem-28
+pagetitle: Problem-28
+sidebar: false
+order: 28
+categories: [quadratic forms]
+---
+
+## Question
+
 Consider the quadratic function in three variables:
 $$
 f(x, y, z) = 3x^2 - 2y^2 +z^2- 2xy + 4yz -8zx 
@@ -36,10 +46,7 @@ If $u = \begin{bmatrix}x & y & z\end{bmatrix}^T$ and $f(x, y, z) = u^T Au$, whic
 -4 & 0 & 1
 \end{bmatrix}$
 
-
-
-<hr>
-
+## Solution
 
 
 The general expression of a quadratic form in $3$ variables is given below:

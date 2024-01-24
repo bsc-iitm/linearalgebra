@@ -1,5 +1,14 @@
-Consider the following system of linear equations:
+---
+title: Problem-23
+pagetitle: Problem-23
+sidebar: false
+order: 23
+categories: [system of equations]
+---
 
+## Question
+
+Consider the following system of linear equations:
 $$
 \begin{aligned}
 x_1 - 3x_2 &= 4\\
@@ -9,8 +18,7 @@ $$
 
 where $k \in \mathbb{R}$. If the given system has a unique solution, comment on the value that $k$ cannot assume.
 
-<hr>
-
+## Solution
 
 
 If $A$ is a square matrix, then the system $Ax = b$ has a unique solution when $A$ is invertible. This happens when $\text{det}(A) \neq 0$. Since we are asked to comment on the values that $k$ cannot assume, we can set the determinant equal to zero:

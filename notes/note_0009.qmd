@@ -1,6 +1,8 @@
 ---
 title: Complex Numbers
 sidebar: false
+order: 9
+categories: [complex numbers]
 ---
 
 ## Introduction

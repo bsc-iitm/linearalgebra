@@ -1,3 +1,13 @@
+---
+title: Problem-10
+pagetitle: Problem-10
+sidebar: false
+order: 10
+categories: [inverse]
+---
+
+## Question
+
 **Assertion**: If $A^2 + A = I$, then $A^{-1} = A + I$
 
 **Reason**: If $A$ is an $m \times n$ matrix, $B$ is an $n \times p$ matrix, with $AB = I$, then $A^{-1} = B$
@@ -12,8 +22,7 @@
 
 (d) Assertion is false. Reason is true.
 
-<hr>
-
+## Solution
 
 
 Option-(d) is the correct answer.

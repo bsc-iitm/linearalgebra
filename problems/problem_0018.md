@@ -1,3 +1,13 @@
+---
+title: Problem-18
+pagetitle: Problem-18
+sidebar: false
+order: 18
+categories: [symmetric matrices, eigenvalues, eigenvectors]
+---
+
+## Question
+
 Select all true statements.
 
 (a) $A^TA$ is positive semi-definite.
@@ -8,8 +18,7 @@ Select all true statements.
 
 (d) $A^TA$ and $AA^T$ have the same non-zero eigenvalues.
 
-<hr>
-
+## Solution
 
 Options (a) and (d) are correct.
 

@@ -1,5 +1,14 @@
-Consider the following matrix:
+---
+title: Problem-21
+pagetitle: Problem-21
+sidebar: false
+order: 21
+categories: [rank, LU decomposition]
+---
 
+## Question
+
+Consider the following matrix:
 $$
 \begin{equation*}
 A = \begin{bmatrix}
@@ -14,8 +23,7 @@ $$
 
 (b) Find a LU decomposition of $A$ if it exists.
 
-<hr>
-
+## Solution
 
 Let us compute the row-echelon form of $A$:
 

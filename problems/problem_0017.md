@@ -1,7 +1,16 @@
+---
+title: Problem-17
+pagetitle: Problem-17
+sidebar: false
+order: 17
+categories: [projections]
+---
+
+## Question
+
 Let $P$ be the projection matrix that projects vectors in $\mathbb{R}^{4}$ onto the line $(1, 2, -1, 1)$. Compute the trace of $P$.
 
-<hr>
-
+## Solution
 
 $P$ is a projection transformation for $\mathbb{R}^{n}$ onto the vector $v=( v_{1} ,\cdots ,v_{n})$. Then for any $x\in \mathbb{R}^{n}$:
 

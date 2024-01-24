@@ -1,3 +1,13 @@
+---
+title: Problem-11
+pagetitle: Problem-11
+sidebar: false
+order: 11
+categories: [system of equations, orthogonal matrices]
+---
+
+## Question
+
 If $A$ is an orthogonal matrix in $\mathbb{R}^{n \times n}$ and $b \in \mathbb{R}^{n}$, then which of the following statements are true?
 
 (a) $A$ has orthonormal columns.
@@ -8,8 +18,7 @@ If $A$ is an orthogonal matrix in $\mathbb{R}^{n \times n}$ and $b \in \mathbb{R
 
 (d) $Ax = b$ has infinitely many solutions.
 
-<hr>
-
+## Solution
 
 
 Options (a) and (b) are correct.

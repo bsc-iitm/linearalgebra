@@ -1,3 +1,13 @@
+---
+title: Problem-2
+pagetitle: Problem-2
+sidebar: false
+order: 2
+categories: [eigenvalues]
+---
+
+## Question
+
 What is the product of the non-zero eigenvalues of the following matrix:
 $$
 \begin{bmatrix}
@@ -9,8 +19,7 @@ $$
 \end{bmatrix}
 $$
 
-<hr>
-
+## Solution
 
 
 The product of the eigenvalues of a matrix is equal to its determinant. But the determinant of this matrix is zero and we are asked to compute the product of the non-zero eigenvalues. We should therefore take recourse to the characteristic polynomial:

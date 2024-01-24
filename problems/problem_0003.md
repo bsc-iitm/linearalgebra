@@ -1,10 +1,20 @@
+---
+title: Problem-3
+pagetitle: Problem-3
+sidebar: false
+order: 3
+categories: [geometry]
+---
+
+## Question
+
 Let $u$ and $v$ be two vectors in $\mathbb{R}^{2}$ that satisfy $||u|| = 2 ||v||$. What is the value of $\alpha$ such that $w = u + \alpha v$ bisects the angle between $u$ and $v$?
 
-<hr>
-
-
+## Solution
 
 If we have two vectors $x$ and $y$ such that $||x|| = ||y||$, then the parallelogram formed by these two vectors turns out to be a rhombus. By the paralellogram law of vector addition, we know that $x$ and $y$ form two sides of a parallelogram whose diagonal is $x + y$. When $||x|| = ||y||$, this parallelogram is actually a rhombus, which is a parallelogram all of whose sides are equal. In a rhombus, the diagonals bisect the angle between the sides. Hence $x + y$ is the angle bisector of $x$ and $y$.
+
+
 
 ![](/assets/images/img_0005.svg){width=100%}
 

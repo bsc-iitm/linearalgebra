@@ -1,3 +1,13 @@
+---
+title: Problem-8
+pagetitle: Problem-8
+sidebar: false
+order: 8
+categories: [rank]
+---
+
+## Question
+
 Let $A$ and $B$ be two matrices such that $AB$ is defined. Select the most appropriate statement.
 
 (a) $\text{rank}(AB) = \text{rank}(A) + \text{rank}(B)$
@@ -12,8 +22,7 @@ Let $A$ and $B$ be two matrices such that $AB$ is defined. Select the most appro
 
 (f) $\text{rank}(AB) \leqslant \min(\text{rank}(A), \text{rank}(B))$
 
-<hr>
-
+## Solution
 
 
 Option (f) is correct. 
@@ -44,5 +53,4 @@ Combining the two inequalities, we have:
 $$
 \text{rank}(AB) \leqslant \min(\text{rank}(A), \text{rank}(B))
 $$
-
 

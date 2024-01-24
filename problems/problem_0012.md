@@ -1,3 +1,13 @@
+---
+title: Problem-12
+pagetitle: Problem-12
+sidebar: false
+order: 12
+categories: [triangular matrices]
+---
+
+## Question
+
 Find the number of true statements. Your answer should be between $0$ and $4$:
 
 - The product of two upper triangular matrices is upper triangular.
@@ -5,10 +15,7 @@ Find the number of true statements. Your answer should be between $0$ and $4$:
 - If $L$ is a lower triangular matrix then $L^T$ is lower triangular.
 - If $U$ is an upper triangular matrix then $U^T$ is lower triangular.
 
-
-
-<hr>
-
+## Solution
 
 
 Three of these statements are correct. 

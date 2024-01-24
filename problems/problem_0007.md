@@ -1,5 +1,14 @@
-Consider a set $V = \{(x, y)\ |\ x, y \in \mathbb{R}\}$ with the usual rule of addition borrowed from $\mathbb{R}^2$ and scalar multiplication defined as:
+---
+title: Problem-7
+pagetitle: Problem-7
+sidebar: false
+order: 7
+categories: [vector spaces]
+---
 
+## Question
+
+Consider a set $V = \{(x, y)\ |\ x, y \in \mathbb{R}\}$ with the usual rule of addition borrowed from $\mathbb{R}^2$ and scalar multiplication defined as:
 
 $$
 c(x, y) = \begin{cases}
@@ -31,10 +40,7 @@ Choose all correct options
 
 (d) Both $R$ and $T$ are not true
 
-
-
-<hr>
-
+## Solution
 
 
 Options (c) and (d) are correct.

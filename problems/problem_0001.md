@@ -1,3 +1,13 @@
+---
+title: Problem-1
+pagetitle: Problem-1
+sidebar: false
+order: 1
+categories: [system of equations]
+---
+
+## Question
+
 If the following system has a non-trivial solution:
 $$
 \begin{aligned}
@@ -16,10 +26,7 @@ Then which one of the following options is true?
 
 **(D)** $p - q + r = 0$ or $p = -q = -r$
 
-<hr>
-
-
-
+## Solution
 
 
 This is a homogenous system of linear equations. For this system to have a non-trivial solution, its nullspace should be non-trivial. Now for some row operations:
