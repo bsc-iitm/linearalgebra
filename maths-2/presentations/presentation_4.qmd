@@ -1,0 +1,167 @@
+---
+title: "Determinants"
+pagetitle: "Determinants"
+subtitle: "Maths-2"
+author: "Karthik Thiagarajan"
+institute: "IIT Madras"
+format: revealjs
+history: false
+slide-number: true
+show-slide-number: all
+incremental: true
+fontsize: 30px
+margin: 0.1
+width: 1600
+height: 800
+revealjs-plugins:
+  - pointer
+---
+
+## Geometry  (2D)
+
+::: {.fragment fragment-index=1 .absolute top=100 left=0}
+$$
+\begin{vmatrix}
+1 & 2\\
+3 & 4
+\end{vmatrix} = 1 \times 4 - 2 \times 3 = -2
+$$
+:::
+
+::: {.fragment fragment-index=2 .absolute top=250 left=0}
+$$
+\begin{vmatrix}
+a & b\\
+c & d
+\end{vmatrix} = ad - bc
+$$
+:::
+
+::: {.fragment fragment-index=3}
+
+![](/assets/images/img_0006.svg){.absolute top=0 left=800 width="80%" height="80%"}
+
+:::
+
+::: {.fragment fragment-index=4 .absolute top=400 left=100}
+$$
+\begin{vmatrix}
+1 & 0\\
+0 & 1
+\end{vmatrix} = 1
+$$
+:::
+
+::: {.fragment fragment-index=5 .absolute top=400 left=400}
+$$
+\begin{vmatrix}
+2 & 0\\
+0 & 3
+\end{vmatrix} = 6
+$$
+:::
+
+::: {.fragment fragment-index=6 .absolute top=600 left=250}
+$$
+\begin{vmatrix}
+l & 0\\
+0 & b
+\end{vmatrix} = lb
+$$
+:::
+
+## Geometry (3D)
+
+::: {.fragment fragment-index=3}
+
+![](/assets/images/img_0007.svg){.absolute top=0 left=800 width="80%" height="70%"}
+
+:::
+
+::: {.fragment fragment-index=1 .absolute top=70 left=0}
+$$
+\small
+\begin{aligned}
+\begin{vmatrix}
+1 & 2 & 3\\
+-1 & 0 & 2\\
+3 & 1 & 2
+\end{vmatrix} &= 1 \times (0 \times 2 - 1 \times 2) +\\
+&= (-2) \times (-1 \times 2 - 3 \times 2) +\\\\
+&= 3 \times (-1 \times 1 - 3 \times 0)\\\\
+&= 11
+\end{aligned}
+$$
+:::
+
+::: {.fragment fragment-index=2 .absolute top=500 left=100}
+$$
+\begin{aligned}
+\begin{vmatrix}
+a & b & c\\
+d & e & f\\
+g & h & i
+\end{vmatrix} &= a (ei - hf) +\\
+&=  -b(di - gf) +\\\\
+&= + c(dh - ge)
+\end{aligned}
+$$
+:::
+
+::: {.fragment fragment-index=4 .absolute top=600 left=1000}
+$$
+\begin{vmatrix}
+a & 0 & 0\\
+0 & b & 0\\
+0 & 0 & c
+\end{vmatrix} = abc
+$$
+:::
+
+
+
+## Geometry (general)
+
+::: {.fragment fragment-index=1}
+
+![](/assets/images/img_0008.svg){.absolute top=100 left=-120 width=80% height=80%}
+
+:::
+
+::: {.fragment fragment-index=3}
+
+![](/assets/images/img_0009.svg){.absolute top=-100 left=900 width=80% height=80%}
+
+:::
+
+::: {.fragment fragment-index=2 .absolute top=50 left=400}
+$$
+A = \begin{bmatrix}
+a & b\\
+c & d
+\end{bmatrix}
+$$
+
+$$
+\text{Area} = |\text{det}(A)|
+$$
+
+:::
+
+::: {.fragment fragment-index=4 .absolute top=500 left=1200}
+$$
+A = \begin{bmatrix}
+a & b & c\\
+d & e & f\\
+g & h & i
+\end{bmatrix}
+$$
+
+$$
+\text{Volume} = |\text{det}(A)|
+$$
+
+:::
+
+
+

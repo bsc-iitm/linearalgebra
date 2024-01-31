@@ -2,6 +2,7 @@
 title: Problem-7
 pagetitle: Problem-7
 categories: [determinants]
+order: 7
 ---
 
 ## Question

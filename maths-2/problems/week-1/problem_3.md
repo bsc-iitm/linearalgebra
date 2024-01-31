@@ -2,6 +2,7 @@
 title: Problem-3
 pagetitle: Problem-3
 categories: [system of equations, matrices]
+order: 3
 ---
 
 ## Question

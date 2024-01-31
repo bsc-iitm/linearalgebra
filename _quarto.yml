@@ -15,9 +15,9 @@ website:
       - text: "MLF"
         file: mlf.md
       - text: "Notes"
-        file: notes_global.md
+        file: notes.md
       - text: "Problems"
-        file: problems_global.md
+        file: problems.md
       - text: "About"
         file: about.md      
 
@@ -28,28 +28,18 @@ website:
       foreground: "primary"
       contents:
         - maths-2.md
-        - section: "Live Sessions"
-          contents:
-            - maths-2/live_sessions/sessions.md
-        - section: "Notes"
-          contents:
-            - section: "Week-1"
-              contents:
-              - maths-2/notes/week-1/note_1.qmd
-              - maths-2/notes/week-1/note_2.md              
-        - section: "Problems"
-          contents:
-            - section: "Week-1"
-              contents:
-                - maths-2/problems/week-1/problem_1.md
-                - maths-2/problems/week-1/problem_2.qmd
-                - maths-2/problems/week-1/problem_3.md
-                - maths-2/problems/week-1/problem_4.md
-                - maths-2/problems/week-1/problem_5.md
-                - maths-2/problems/week-1/problem_6.qmd
-                - maths-2/problems/week-1/problem_7.qmd
-                - maths-2/problems/week-1/problem_8.md
-        - maths-2/presentations/presentations.md
+        - auto: maths-2/notes
+        - auto: maths-2/problems
+        - auto: maths-2/presentations
+
+    - title: "Problems"
+      collapse-level: 1
+      border: true
+      foreground: "primary"
+      contents: 
+        - problems.md
+        - auto: problems/LADR
+        - auto: problems/unsorted
 
     - title: "Machine Learning Foundations"
       collapse-level: 1
@@ -66,5 +56,5 @@ format:
     toc: true
     grid:
       sidebar-width: 200px
-      margin-width: 300px
-      body-width: 800px
+      margin-width: 200px
+      body-width: 900px

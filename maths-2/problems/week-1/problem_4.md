@@ -2,6 +2,7 @@
 title: Problem-4
 pagetitle: Problem-4
 categories: [system of equations]
+order: 4
 ---
 
 ## Question
